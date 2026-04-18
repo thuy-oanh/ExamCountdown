@@ -1,0 +1,668 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <title>Hệ thống quản lý lịch thi</title>
+    <style>
+        /* (Giữ nguyên CSS như file gốc) */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: system-ui, 'Segoe UI', 'Roboto', 'Helvetica Neue', sans-serif;
+        }
+
+        body {
+            background: #f1f5f9;
+            padding: 2rem 1.5rem;
+            min-height: 100vh;
+        }
+
+        .container {
+            max-width: 1280px;
+            margin: 0 auto;
+        }
+
+        .header {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: space-between;
+            gap: 1rem;
+            margin-bottom: 2rem;
+        }
+
+        h1 {
+            font-size: 1.8rem;
+            font-weight: 700;
+            background: linear-gradient(135deg, #0f172a, #1e293b);
+            background-clip: text;
+            -webkit-background-clip: text;
+            color: transparent;
+            letter-spacing: -0.3px;
+        }
+
+        .btn-primary {
+            background: #3b82f6;
+            border: none;
+            padding: 0.75rem 1.6rem;
+            border-radius: 40px;
+            font-weight: 600;
+            font-size: 0.95rem;
+            color: white;
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            cursor: pointer;
+            transition: all 0.2s ease;
+            box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+        }
+
+        .btn-primary:hover {
+            background: #2563eb;
+            transform: translateY(-1px);
+            box-shadow: 0 8px 18px rgba(59,130,246,0.25);
+        }
+
+        .btn-secondary {
+            background: #e2e8f0;
+            color: #1e293b;
+            border: none;
+            padding: 0.6rem 1.2rem;
+            border-radius: 40px;
+            font-weight: 500;
+            cursor: pointer;
+            transition: background 0.2s;
+        }
+
+        .btn-secondary:hover {
+            background: #cbd5e1;
+        }
+
+        .btn-save {
+            background: #10b981;
+            box-shadow: none;
+        }
+
+        .btn-save:hover {
+            background: #059669;
+        }
+
+        .modal {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.5);
+            backdrop-filter: blur(4px);
+            align-items: center;
+            justify-content: center;
+            z-index: 1000;
+            padding: 1rem;
+        }
+
+        .modal.active {
+            display: flex;
+        }
+
+        .form-card {
+            background: white;
+            max-width: 500px;
+            width: 100%;
+            border-radius: 28px;
+            padding: 1.8rem 1.8rem 2rem;
+            box-shadow: 0 25px 40px -12px rgba(0, 0, 0, 0.35);
+            animation: fadeSlideUp 0.2s ease-out;
+        }
+
+        @keyframes fadeSlideUp {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .form-card h2 {
+            font-size: 1.6rem;
+            font-weight: 600;
+            margin-bottom: 1.5rem;
+            color: #0f172a;
+            border-left: 5px solid #3b82f6;
+            padding-left: 1rem;
+        }
+
+        .form-group {
+            margin-bottom: 1.25rem;
+        }
+
+        .form-group label {
+            display: block;
+            font-weight: 500;
+            margin-bottom: 0.4rem;
+            color: #334155;
+            font-size: 0.85rem;
+            text-transform: uppercase;
+            letter-spacing: 0.3px;
+        }
+
+        .form-group input {
+            width: 100%;
+            padding: 0.75rem 1rem;
+            border: 1px solid #cbd5e1;
+            border-radius: 18px;
+            font-size: 1rem;
+            transition: 0.2s;
+            background: #fefefe;
+        }
+
+        .form-group input:focus {
+            outline: none;
+            border-color: #3b82f6;
+            box-shadow: 0 0 0 3px rgba(59,130,246,0.2);
+        }
+
+        .error-msg {
+            color: #e11d48;
+            font-size: 0.75rem;
+            margin-top: 0.3rem;
+            display: flex;
+            align-items: center;
+            gap: 4px;
+        }
+
+        .form-actions {
+            display: flex;
+            justify-content: flex-end;
+            gap: 1rem;
+            margin-top: 1.8rem;
+        }
+
+        .toast {
+            position: fixed;
+            bottom: 28px;
+            left: 50%;
+            transform: translateX(-50%) scale(0.9);
+            background: #1e293b;
+            color: white;
+            padding: 0.75rem 1.6rem;
+            border-radius: 60px;
+            font-weight: 500;
+            font-size: 0.9rem;
+            box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+            opacity: 0;
+            transition: opacity 0.2s, transform 0.2s;
+            pointer-events: none;
+            z-index: 1100;
+            backdrop-filter: blur(8px);
+            background: rgba(15, 23, 42, 0.9);
+        }
+
+        .toast.show {
+            opacity: 1;
+            transform: translateX(-50%) scale(1);
+        }
+
+        .exam-list {
+            background: white;
+            border-radius: 28px;
+            padding: 1.2rem 1.5rem;
+            box-shadow: 0 8px 20px rgba(0,0,0,0.03);
+            border: 1px solid #e2e8f0;
+        }
+
+        .list-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline;
+            flex-wrap: wrap;
+            margin-bottom: 1.5rem;
+            border-bottom: 2px solid #eef2ff;
+            padding-bottom: 0.75rem;
+        }
+
+        .list-header h3 {
+            font-size: 1.3rem;
+            font-weight: 600;
+            color: #0f172a;
+        }
+
+        .badge-count {
+            background: #eef2ff;
+            padding: 0.2rem 0.8rem;
+            border-radius: 40px;
+            font-size: 0.8rem;
+            font-weight: 500;
+            color: #1e40af;
+        }
+
+        .exams-grid {
+            display: flex;
+            flex-direction: column;
+            gap: 0.75rem;
+        }
+
+        .exam-card {
+            background: #f8fafc;
+            border-radius: 20px;
+            padding: 1rem 1.2rem;
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: space-between;
+            gap: 0.75rem;
+            transition: all 0.15s;
+            border: 1px solid #e2e8f0;
+        }
+
+        .exam-info {
+            flex: 3;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1rem;
+            align-items: baseline;
+        }
+
+        .exam-subject {
+            font-weight: 700;
+            font-size: 1.1rem;
+            background: #ffffff;
+            padding: 0.2rem 0.9rem;
+            border-radius: 40px;
+            color: #0f172a;
+            border: 1px solid #cbd5e1;
+        }
+
+        .exam-datetime {
+            display: flex;
+            gap: 0.75rem;
+            flex-wrap: wrap;
+            font-size: 0.85rem;
+            color: #334155;
+        }
+
+        .exam-room {
+            background: #e6f0ff;
+            padding: 0.2rem 0.8rem;
+            border-radius: 30px;
+            font-weight: 500;
+            font-size: 0.8rem;
+            color: #075985;
+        }
+
+        .empty-state {
+            text-align: center;
+            padding: 3rem 1rem;
+            color: #64748b;
+            font-style: italic;
+        }
+
+        hr {
+            margin: 0.5rem 0;
+        }
+
+        @media (max-width: 640px) {
+            body {
+                padding: 1rem;
+            }
+            .exam-info {
+                flex-direction: column;
+                align-items: flex-start;
+                gap: 0.5rem;
+            }
+            .form-card {
+                padding: 1.5rem;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <div class="header">
+        <h1>📘 Lịch thi của tôi</h1>
+        <button class="btn-primary" id="openFormBtn">+ Thêm kỳ thi</button>
+    </div>
+
+    <div class="exam-list">
+        <div class="list-header">
+            <h3>📅 Danh sách kỳ thi</h3>
+            <span class="badge-count" id="examCount">0</span>
+        </div>
+        <div id="examsContainer" class="exams-grid">
+            <div class="empty-state">✨ Đang tải dữ liệu...</div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal form tạo kỳ thi -->
+<div id="examModal" class="modal">
+    <div class="form-card">
+        <h2>✏️ Tạo kỳ thi mới</h2>
+        <form id="examForm" novalidate>
+            <div class="form-group">
+                <label>Tên môn học <span style="color:#e11d48;">*</span></label>
+                <input type="text" id="subject" placeholder="Ví dụ: Cấu trúc dữ liệu & giải thuật" autocomplete="off">
+                <div id="subjectError" class="error-msg"></div>
+            </div>
+            <div class="form-group">
+                <label>Ngày thi <span style="color:#e11d48;">*</span></label>
+                <input type="date" id="examDate">
+                <div id="dateError" class="error-msg"></div>
+            </div>
+            <div class="form-group">
+                <label>Giờ thi <span style="color:#e11d48;">*</span></label>
+                <input type="time" id="examTime">
+                <div id="timeError" class="error-msg"></div>
+            </div>
+            <div class="form-group">
+                <label>Phòng thi</label>
+                <input type="text" id="room" placeholder="Ví dụ: A101, Hội trường 2, Online">
+                <div id="roomError" class="error-msg"></div>
+            </div>
+            <div class="form-actions">
+                <button type="button" class="btn-secondary" id="cancelBtn">Hủy</button>
+                <button type="submit" class="btn-primary btn-save">💾 Lưu kỳ thi</button>
+            </div>
+        </form>
+    </div>
+</div>
+
+<div id="toastMsg" class="toast">✅ Thông báo</div>
+
+<script>
+    // ========== CẤU HÌNH API ==========
+    // Thay đổi URL này khi deploy backend
+    const API_BASE_URL = 'http://localhost:5000/api';
+
+    // ========== BIẾN TOÀN CỤC ==========
+    let exams = []; // Mảng chứa dữ liệu kỳ thi từ server (mỗi item có _id của MongoDB)
+
+    // DOM elements
+    const modal = document.getElementById('examModal');
+    const openFormBtn = document.getElementById('openFormBtn');
+    const cancelBtn = document.getElementById('cancelBtn');
+    const examForm = document.getElementById('examForm');
+    const examsContainer = document.getElementById('examsContainer');
+    const examCountSpan = document.getElementById('examCount');
+
+    // Input fields
+    const subjectInput = document.getElementById('subject');
+    const dateInput = document.getElementById('examDate');
+    const timeInput = document.getElementById('examTime');
+    const roomInput = document.getElementById('room');
+
+    // Error containers
+    const subjectError = document.getElementById('subjectError');
+    const dateError = document.getElementById('dateError');
+    const timeError = document.getElementById('timeError');
+
+    // ========== HÀM TIỆN ÍCH ==========
+    function showToast(message, isError = false) {
+        const toast = document.getElementById('toastMsg');
+        toast.textContent = message;
+        toast.style.background = isError ? 'rgba(220, 38, 38, 0.9)' : 'rgba(15, 23, 42, 0.9)';
+        toast.classList.add('show');
+        setTimeout(() => {
+            toast.classList.remove('show');
+            setTimeout(() => {
+                if (!isError) toast.style.background = 'rgba(15, 23, 42, 0.9)';
+            }, 300);
+        }, 2800);
+    }
+
+    function escapeHtml(str) {
+        if (!str) return '';
+        return str.replace(/[&<>]/g, function(m) {
+            if (m === '&') return '&amp;';
+            if (m === '<') return '&lt;';
+            if (m === '>') return '&gt;';
+            return m;
+        }).replace(/[\uD800-\uDBFF][\uDC00-\uDFFF]/g, function(c) {
+            return c;
+        });
+    }
+
+    // Reset form và ẩn lỗi
+    function resetForm() {
+        subjectInput.value = '';
+        dateInput.value = '';
+        timeInput.value = '';
+        roomInput.value = '';
+        subjectError.innerText = '';
+        dateError.innerText = '';
+        timeError.innerText = '';
+        [subjectInput, dateInput, timeInput].forEach(inp => inp.style.borderColor = '');
+    }
+
+    // Kiểm tra dữ liệu form (giống phiên bản cũ)
+    function validateForm() {
+        let isValid = true;
+        const subjectVal = subjectInput.value.trim();
+        const dateVal = dateInput.value;
+        const timeVal = timeInput.value;
+
+        subjectError.innerText = '';
+        dateError.innerText = '';
+        timeError.innerText = '';
+        subjectInput.style.borderColor = '';
+        dateInput.style.borderColor = '';
+        timeInput.style.borderColor = '';
+
+        if (subjectVal === '') {
+            subjectError.innerText = 'Tên môn học không được để trống.';
+            subjectInput.style.borderColor = '#e11d48';
+            isValid = false;
+        } else if (subjectVal.length > 100) {
+            subjectError.innerText = 'Tên môn không được vượt quá 100 ký tự.';
+            subjectInput.style.borderColor = '#e11d48';
+            isValid = false;
+        }
+
+        if (dateVal === '') {
+            dateError.innerText = 'Vui lòng chọn ngày thi.';
+            dateInput.style.borderColor = '#e11d48';
+            isValid = false;
+        } else {
+            const today = new Date();
+            today.setHours(0,0,0,0);
+            const selectedDate = new Date(dateVal);
+            if (selectedDate < today) {
+                dateError.innerText = '⚠️ Ngày thi đã qua, vui lòng kiểm tra lại.';
+                // Không chặn lưu, chỉ cảnh báo
+            }
+        }
+
+        if (timeVal === '') {
+            timeError.innerText = 'Vui lòng chọn giờ thi.';
+            timeInput.style.borderColor = '#e11d48';
+            isValid = false;
+        }
+
+        return isValid;
+    }
+
+    // ========== TƯƠNG TÁC API ==========
+    // Lấy danh sách kỳ thi từ server
+    async function fetchExams() {
+        try {
+            const response = await fetch(`${API_BASE_URL}/exams`);
+            if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
+            exams = await response.json();
+            renderExamList();
+        } catch (error) {
+            console.error('Lỗi tải danh sách:', error);
+            examsContainer.innerHTML = `<div class="empty-state">❌ Không thể kết nối đến máy chủ. Vui lòng thử lại sau.</div>`;
+            examCountSpan.innerText = '0';
+            showToast('❌ Không thể tải danh sách kỳ thi', true);
+        }
+    }
+
+    // Thêm kỳ thi mới
+    async function addExam(examData) {
+        try {
+            const response = await fetch(`${API_BASE_URL}/exams`, {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify(examData)
+            });
+            if (!response.ok) {
+                const errorData = await response.json();
+                throw new Error(errorData.message || 'Lỗi khi lưu');
+            }
+            const newExam = await response.json();
+            // Cập nhật lại danh sách từ server để đồng bộ
+            await fetchExams();
+            showToast(`✅ Đã tạo kỳ thi "${newExam.subject}" thành công!`);
+            return newExam;
+        } catch (error) {
+            console.error('Lỗi thêm kỳ thi:', error);
+            showToast(`❌ Lưu thất bại: ${error.message}`, true);
+            throw error;
+        }
+    }
+
+    // Xóa kỳ thi theo ID (MongoDB _id)
+    async function deleteExamById(id) {
+        try {
+            const response = await fetch(`${API_BASE_URL}/exams/${id}`, {
+                method: 'DELETE'
+            });
+            if (!response.ok) throw new Error('Xóa thất bại');
+            const result = await response.json();
+            showToast(`🗑 ${result.message || 'Đã xóa kỳ thi'}`, false);
+            // Tải lại danh sách sau khi xóa
+            await fetchExams();
+        } catch (error) {
+            console.error('Lỗi xóa:', error);
+            showToast('❌ Xóa thất bại, vui lòng thử lại', true);
+        }
+    }
+
+    // ========== HIỂN THỊ DANH SÁCH ==========
+    function renderExamList() {
+        if (!examsContainer) return;
+
+        if (exams.length === 0) {
+            examsContainer.innerHTML = `<div class="empty-state">📭 Chưa có kỳ thi nào. Hãy tạo kỳ thi đầu tiên 🚀</div>`;
+            examCountSpan.innerText = '0';
+            return;
+        }
+
+        examCountSpan.innerText = exams.length;
+
+        // Sắp xếp theo ngày + giờ tăng dần
+        const sortedExams = [...exams].sort((a, b) => {
+            const dateTimeA = new Date(`${a.date}T${a.time || '00:00'}`);
+            const dateTimeB = new Date(`${b.date}T${b.time || '00:00'}`);
+            return dateTimeA - dateTimeB;
+        });
+
+        let html = '';
+        sortedExams.forEach(exam => {
+            // Định dạng ngày dd/mm/yyyy
+            let formattedDate = exam.date;
+            if (exam.date) {
+                const [year, month, day] = exam.date.split('-');
+                formattedDate = `${day}/${month}/${year}`;
+            }
+            const displayTime = exam.time ? exam.time.slice(0,5) : '--:--';
+            const roomText = exam.room && exam.room.trim() !== '' ? exam.room : 'Chưa cập nhật';
+
+            html += `
+                <div class="exam-card" data-id="${exam._id}">
+                    <div class="exam-info">
+                        <span class="exam-subject">📖 ${escapeHtml(exam.subject)}</span>
+                        <div class="exam-datetime">
+                            <span>📅 ${formattedDate}</span>
+                            <span>⏰ ${displayTime}</span>
+                        </div>
+                        <span class="exam-room">🏠 ${escapeHtml(roomText)}</span>
+                    </div>
+                    <button class="btn-secondary delete-exam" data-id="${exam._id}" style="background:#fee2e2; color:#b91c1c; border:none; padding:0.4rem 1rem;">Xóa</button>
+                </div>
+            `;
+        });
+        examsContainer.innerHTML = html;
+
+        // Gắn sự kiện xóa cho từng nút
+        document.querySelectorAll('.delete-exam').forEach(btn => {
+            btn.addEventListener('click', (e) => {
+                e.stopPropagation();
+                const examId = btn.getAttribute('data-id');
+                deleteExamById(examId);
+            });
+        });
+    }
+
+    // ========== XỬ LÝ FORM ==========
+    async function handleSaveExam(event) {
+        event.preventDefault();
+
+        if (!validateForm()) {
+            showToast('❌ Vui lòng điền đầy đủ thông tin bắt buộc (Tên môn, ngày, giờ)', true);
+            return;
+        }
+
+        const subject = subjectInput.value.trim();
+        const date = dateInput.value;
+        const time = timeInput.value;
+        const room = roomInput.value.trim() !== '' ? roomInput.value.trim() : '';
+
+        const newExam = { subject, date, time, room };
+
+        // Disable nút lưu để tránh spam
+        const saveBtn = examForm.querySelector('button[type="submit"]');
+        const originalText = saveBtn.textContent;
+        saveBtn.disabled = true;
+        saveBtn.textContent = 'Đang lưu...';
+
+        try {
+            await addExam(newExam);
+            // Đóng modal và reset form
+            modal.classList.remove('active');
+            resetForm();
+        } catch (error) {
+            // Lỗi đã được xử lý trong addExam, không cần làm thêm
+        } finally {
+            saveBtn.disabled = false;
+            saveBtn.textContent = originalText;
+        }
+    }
+
+    // ========== MODAL CONTROLS ==========
+    function openModal() {
+        resetForm();
+        modal.classList.add('active');
+        setTimeout(() => subjectInput.focus(), 100);
+    }
+
+    function closeModal() {
+        modal.classList.remove('active');
+        resetForm();
+    }
+
+    // ========== KHỞI TẠO & SỰ KIỆN ==========
+    openFormBtn.addEventListener('click', openModal);
+    cancelBtn.addEventListener('click', closeModal);
+    examForm.addEventListener('submit', handleSaveExam);
+
+    modal.addEventListener('click', (e) => {
+        if (e.target === modal) closeModal();
+    });
+
+    document.addEventListener('keydown', (e) => {
+        if (e.key === 'Escape' && modal.classList.contains('active')) closeModal();
+    });
+
+    // Tải dữ liệu khi trang load
+    fetchExams();
+</script>
+</body>
+</html>
