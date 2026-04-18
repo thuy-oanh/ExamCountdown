@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Danh sách kỳ thi</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <h2>📚 Danh sách kỳ thi</h2>
+
+    <div id="examList">
+        <p>Đang tải dữ liệu...</p>
+    </div>
+
+    <!-- Modal chỉnh sửa -->
+    <div id="modalOverlay" class="overlay" onclick="closeEditForm()"></div>
+
+    <div id="editExamModal" class="modal">
+        <h3>Chỉnh sửa kỳ thi</h3>
+
+        <input type="hidden" id="editExamId">
+
+        <label>Tên môn:</label>
+        <input type="text" id="editSubjectName">
+
+        <label>Ngày thi:</label>
+        <input type="date" id="editExamDate">
+
+        <label>Giờ thi:</label>
+        <input type="time" id="editExamTime">
+
+        <label>Phòng:</label>
+        <input type="text" id="editRoom">
+
+        <p id="errorMessage" class="error"></p>
+
+        <button class="btn-save" onclick="submitEditExam()">Lưu thay đổi</button>
+        <button onclick="closeEditForm()">Hủy</button>
+    </div>
+
+    <script src="js/exam.js"></script>
+</body>
+</html>
