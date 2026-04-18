@@ -1,0 +1,771 @@
+D:\QLCVHT ANGILE\Web Đếm ngược ngày thi\Tài-nhap\JiraProject\obj\Debug\net8.0\JiraProject.csproj.AssemblyReference.cache
+D:\QLCVHT ANGILE\Web Đếm ngược ngày thi\Tài-nhap\JiraProject\obj\Debug\net8.0\rpswa.dswa.cache.json
+D:\QLCVHT ANGILE\Web Đếm ngược ngày thi\Tài-nhap\JiraProject\obj\Debug\net8.0\JiraProject.GeneratedMSBuildEditorConfig.editorconfig
+D:\QLCVHT ANGILE\Web Đếm ngược ngày thi\Tài-nhap\JiraProject\obj\Debug\net8.0\JiraProject.AssemblyInfoInputs.cache
+D:\QLCVHT ANGILE\Web Đếm ngược ngày thi\Tài-nhap\JiraProject\obj\Debug\net8.0\JiraProject.AssemblyInfo.cs
+D:\QLCVHT ANGILE\Web Đếm ngược ngày thi\Tài-nhap\JiraProject\obj\Debug\net8.0\JiraProject.csproj.CoreCompileInputs.cache
+D:\QLCVHT ANGILE\Web Đếm ngược ngày thi\Tài-nhap\JiraProject\obj\Debug\net8.0\JiraProject.MvcApplicationPartsAssemblyInfo.cs
+D:\QLCVHT ANGILE\Web Đếm ngược ngày thi\Tài-nhap\JiraProject\obj\Debug\net8.0\JiraProject.MvcApplicationPartsAssemblyInfo.cache
+D:\QLCVHT ANGILE\Web Đếm ngược ngày thi\Tài-nhap\JiraProject\bin\Debug\net8.0\appsettings.Development.json
+D:\QLCVHT ANGILE\Web Đếm ngược ngày thi\Tài-nhap\JiraProject\bin\Debug\net8.0\appsettings.json
+D:\QLCVHT ANGILE\Web Đếm ngược ngày thi\Tài-nhap\JiraProject\bin\Debug\net8.0\JiraProject.staticwebassets.runtime.json
+D:\QLCVHT ANGILE\Web Đếm ngược ngày thi\Tài-nhap\JiraProject\bin\Debug\net8.0\JiraProject.staticwebassets.endpoints.json
+D:\QLCVHT ANGILE\Web Đếm ngược ngày thi\Tài-nhap\JiraProject\bin\Debug\net8.0\JiraProject.exe
+D:\QLCVHT ANGILE\Web Đếm ngược ngày thi\Tài-nhap\JiraProject\bin\Debug\net8.0\JiraProject.deps.json
+D:\QLCVHT ANGILE\Web Đếm ngược ngày thi\Tài-nhap\JiraProject\bin\Debug\net8.0\JiraProject.runtimeconfig.json
+D:\QLCVHT ANGILE\Web Đếm ngược ngày thi\Tài-nhap\JiraProject\bin\Debug\net8.0\JiraProject.dll
+D:\QLCVHT ANGILE\Web Đếm ngược ngày thi\Tài-nhap\JiraProject\bin\Debug\net8.0\JiraProject.pdb
+D:\QLCVHT ANGILE\Web Đếm ngược ngày thi\Tài-nhap\JiraProject\bin\Debug\net8.0\Microsoft.OpenApi.dll
+D:\QLCVHT ANGILE\Web Đếm ngược ngày thi\Tài-nhap\JiraProject\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\QLCVHT ANGILE\Web Đếm ngược ngày thi\Tài-nhap\JiraProject\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\QLCVHT ANGILE\Web Đếm ngược ngày thi\Tài-nhap\JiraProject\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\QLCVHT ANGILE\Web Đếm ngược ngày thi\Tài-nhap\JiraProject\obj\Debug\net8.0\rjimswa.dswa.cache.json
+D:\QLCVHT ANGILE\Web Đếm ngược ngày thi\Tài-nhap\JiraProject\obj\Debug\net8.0\rjsmrazor.dswa.cache.json
+D:\QLCVHT ANGILE\Web Đếm ngược ngày thi\Tài-nhap\JiraProject\obj\Debug\net8.0\rjsmcshtml.dswa.cache.json
+D:\QLCVHT ANGILE\Web Đếm ngược ngày thi\Tài-nhap\JiraProject\obj\Debug\net8.0\scopedcss\bundle\JiraProject.styles.css
+D:\QLCVHT ANGILE\Web Đếm ngược ngày thi\Tài-nhap\JiraProject\obj\Debug\net8.0\staticwebassets.build.json
+D:\QLCVHT ANGILE\Web Đếm ngược ngày thi\Tài-nhap\JiraProject\obj\Debug\net8.0\staticwebassets.build.json.cache
+D:\QLCVHT ANGILE\Web Đếm ngược ngày thi\Tài-nhap\JiraProject\obj\Debug\net8.0\staticwebassets.development.json
+D:\QLCVHT ANGILE\Web Đếm ngược ngày thi\Tài-nhap\JiraProject\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+D:\QLCVHT ANGILE\Web Đếm ngược ngày thi\Tài-nhap\JiraProject\obj\Debug\net8.0\swae.build.ex.cache
+D:\QLCVHT ANGILE\Web Đếm ngược ngày thi\Tài-nhap\JiraProject\obj\Debug\net8.0\JiraProj.BABBF7DD.Up2Date
+D:\QLCVHT ANGILE\Web Đếm ngược ngày thi\Tài-nhap\JiraProject\obj\Debug\net8.0\JiraProject.dll
+D:\QLCVHT ANGILE\Web Đếm ngược ngày thi\Tài-nhap\JiraProject\obj\Debug\net8.0\refint\JiraProject.dll
+D:\QLCVHT ANGILE\Web Đếm ngược ngày thi\Tài-nhap\JiraProject\obj\Debug\net8.0\JiraProject.pdb
+D:\QLCVHT ANGILE\Web Đếm ngược ngày thi\Tài-nhap\JiraProject\obj\Debug\net8.0\JiraProject.genruntimeconfig.cache
+D:\QLCVHT ANGILE\Web Đếm ngược ngày thi\Tài-nhap\JiraProject\obj\Debug\net8.0\ref\JiraProject.dll
+C:\Users\Admin\Downloads\JiraProject\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\Admin\Downloads\JiraProject\bin\Debug\net8.0\appsettings.json
+C:\Users\Admin\Downloads\JiraProject\bin\Debug\net8.0\JiraProject.staticwebassets.runtime.json
+C:\Users\Admin\Downloads\JiraProject\bin\Debug\net8.0\JiraProject.staticwebassets.endpoints.json
+C:\Users\Admin\Downloads\JiraProject\bin\Debug\net8.0\JiraProject.exe
+C:\Users\Admin\Downloads\JiraProject\bin\Debug\net8.0\JiraProject.deps.json
+C:\Users\Admin\Downloads\JiraProject\bin\Debug\net8.0\JiraProject.runtimeconfig.json
+C:\Users\Admin\Downloads\JiraProject\bin\Debug\net8.0\JiraProject.dll
+C:\Users\Admin\Downloads\JiraProject\bin\Debug\net8.0\JiraProject.pdb
+C:\Users\Admin\Downloads\JiraProject\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\Users\Admin\Downloads\JiraProject\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Admin\Downloads\JiraProject\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Admin\Downloads\JiraProject\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Admin\Downloads\JiraProject\obj\Debug\net8.0\JiraProject.csproj.AssemblyReference.cache
+C:\Users\Admin\Downloads\JiraProject\obj\Debug\net8.0\rpswa.dswa.cache.json
+C:\Users\Admin\Downloads\JiraProject\obj\Debug\net8.0\JiraProject.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\Downloads\JiraProject\obj\Debug\net8.0\JiraProject.AssemblyInfoInputs.cache
+C:\Users\Admin\Downloads\JiraProject\obj\Debug\net8.0\JiraProject.AssemblyInfo.cs
+C:\Users\Admin\Downloads\JiraProject\obj\Debug\net8.0\JiraProject.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Downloads\JiraProject\obj\Debug\net8.0\JiraProject.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Admin\Downloads\JiraProject\obj\Debug\net8.0\JiraProject.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Admin\Downloads\JiraProject\obj\Debug\net8.0\rjimswa.dswa.cache.json
+C:\Users\Admin\Downloads\JiraProject\obj\Debug\net8.0\rjsmrazor.dswa.cache.json
+C:\Users\Admin\Downloads\JiraProject\obj\Debug\net8.0\rjsmcshtml.dswa.cache.json
+C:\Users\Admin\Downloads\JiraProject\obj\Debug\net8.0\scopedcss\bundle\JiraProject.styles.css
+C:\Users\Admin\Downloads\JiraProject\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\Admin\Downloads\JiraProject\obj\Debug\net8.0\staticwebassets.build.json.cache
+C:\Users\Admin\Downloads\JiraProject\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\Admin\Downloads\JiraProject\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+C:\Users\Admin\Downloads\JiraProject\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+C:\Users\Admin\Downloads\JiraProject\obj\Debug\net8.0\JiraProj.BABBF7DD.Up2Date
+C:\Users\Admin\Downloads\JiraProject\obj\Debug\net8.0\JiraProject.dll
+C:\Users\Admin\Downloads\JiraProject\obj\Debug\net8.0\refint\JiraProject.dll
+C:\Users\Admin\Downloads\JiraProject\obj\Debug\net8.0\JiraProject.pdb
+C:\Users\Admin\Downloads\JiraProject\obj\Debug\net8.0\JiraProject.genruntimeconfig.cache
+C:\Users\Admin\Downloads\JiraProject\obj\Debug\net8.0\ref\JiraProject.dll
+C:\Users\Admin\Downloads\JiraProject\bin\Debug\net8.0\wwwroot\index.html
+D:\QLCVHT ANGILE\Web Đếm ngược ngày thi\Tài_MỚI\JiraProject\bin\Debug\net8.0\appsettings.Development.json
+D:\QLCVHT ANGILE\Web Đếm ngược ngày thi\Tài_MỚI\JiraProject\bin\Debug\net8.0\appsettings.json
+D:\QLCVHT ANGILE\Web Đếm ngược ngày thi\Tài_MỚI\JiraProject\bin\Debug\net8.0\JiraProject.staticwebassets.runtime.json
+D:\QLCVHT ANGILE\Web Đếm ngược ngày thi\Tài_MỚI\JiraProject\bin\Debug\net8.0\JiraProject.staticwebassets.endpoints.json
+D:\QLCVHT ANGILE\Web Đếm ngược ngày thi\Tài_MỚI\JiraProject\bin\Debug\net8.0\JiraProject.exe
+D:\QLCVHT ANGILE\Web Đếm ngược ngày thi\Tài_MỚI\JiraProject\bin\Debug\net8.0\wwwroot\index.html
+D:\QLCVHT ANGILE\Web Đếm ngược ngày thi\Tài_MỚI\JiraProject\bin\Debug\net8.0\JiraProject.deps.json
+D:\QLCVHT ANGILE\Web Đếm ngược ngày thi\Tài_MỚI\JiraProject\bin\Debug\net8.0\JiraProject.runtimeconfig.json
+D:\QLCVHT ANGILE\Web Đếm ngược ngày thi\Tài_MỚI\JiraProject\bin\Debug\net8.0\JiraProject.dll
+D:\QLCVHT ANGILE\Web Đếm ngược ngày thi\Tài_MỚI\JiraProject\bin\Debug\net8.0\JiraProject.pdb
+D:\QLCVHT ANGILE\Web Đếm ngược ngày thi\Tài_MỚI\JiraProject\bin\Debug\net8.0\Microsoft.OpenApi.dll
+D:\QLCVHT ANGILE\Web Đếm ngược ngày thi\Tài_MỚI\JiraProject\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\QLCVHT ANGILE\Web Đếm ngược ngày thi\Tài_MỚI\JiraProject\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\QLCVHT ANGILE\Web Đếm ngược ngày thi\Tài_MỚI\JiraProject\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\QLCVHT ANGILE\Web Đếm ngược ngày thi\Tài_MỚI\JiraProject\obj\Debug\net8.0\JiraProject.csproj.AssemblyReference.cache
+D:\QLCVHT ANGILE\Web Đếm ngược ngày thi\Tài_MỚI\JiraProject\obj\Debug\net8.0\rpswa.dswa.cache.json
+D:\QLCVHT ANGILE\Web Đếm ngược ngày thi\Tài_MỚI\JiraProject\obj\Debug\net8.0\JiraProject.GeneratedMSBuildEditorConfig.editorconfig
+D:\QLCVHT ANGILE\Web Đếm ngược ngày thi\Tài_MỚI\JiraProject\obj\Debug\net8.0\JiraProject.AssemblyInfoInputs.cache
+D:\QLCVHT ANGILE\Web Đếm ngược ngày thi\Tài_MỚI\JiraProject\obj\Debug\net8.0\JiraProject.AssemblyInfo.cs
+D:\QLCVHT ANGILE\Web Đếm ngược ngày thi\Tài_MỚI\JiraProject\obj\Debug\net8.0\JiraProject.csproj.CoreCompileInputs.cache
+D:\QLCVHT ANGILE\Web Đếm ngược ngày thi\Tài_MỚI\JiraProject\obj\Debug\net8.0\JiraProject.MvcApplicationPartsAssemblyInfo.cs
+D:\QLCVHT ANGILE\Web Đếm ngược ngày thi\Tài_MỚI\JiraProject\obj\Debug\net8.0\JiraProject.MvcApplicationPartsAssemblyInfo.cache
+D:\QLCVHT ANGILE\Web Đếm ngược ngày thi\Tài_MỚI\JiraProject\obj\Debug\net8.0\rjimswa.dswa.cache.json
+D:\QLCVHT ANGILE\Web Đếm ngược ngày thi\Tài_MỚI\JiraProject\obj\Debug\net8.0\rjsmrazor.dswa.cache.json
+D:\QLCVHT ANGILE\Web Đếm ngược ngày thi\Tài_MỚI\JiraProject\obj\Debug\net8.0\rjsmcshtml.dswa.cache.json
+D:\QLCVHT ANGILE\Web Đếm ngược ngày thi\Tài_MỚI\JiraProject\obj\Debug\net8.0\scopedcss\bundle\JiraProject.styles.css
+D:\QLCVHT ANGILE\Web Đếm ngược ngày thi\Tài_MỚI\JiraProject\obj\Debug\net8.0\staticwebassets.build.json
+D:\QLCVHT ANGILE\Web Đếm ngược ngày thi\Tài_MỚI\JiraProject\obj\Debug\net8.0\staticwebassets.build.json.cache
+D:\QLCVHT ANGILE\Web Đếm ngược ngày thi\Tài_MỚI\JiraProject\obj\Debug\net8.0\staticwebassets.development.json
+D:\QLCVHT ANGILE\Web Đếm ngược ngày thi\Tài_MỚI\JiraProject\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+D:\QLCVHT ANGILE\Web Đếm ngược ngày thi\Tài_MỚI\JiraProject\obj\Debug\net8.0\swae.build.ex.cache
+D:\QLCVHT ANGILE\Web Đếm ngược ngày thi\Tài_MỚI\JiraProject\obj\Debug\net8.0\JiraProj.BABBF7DD.Up2Date
+D:\QLCVHT ANGILE\Web Đếm ngược ngày thi\Tài_MỚI\JiraProject\obj\Debug\net8.0\JiraProject.dll
+D:\QLCVHT ANGILE\Web Đếm ngược ngày thi\Tài_MỚI\JiraProject\obj\Debug\net8.0\refint\JiraProject.dll
+D:\QLCVHT ANGILE\Web Đếm ngược ngày thi\Tài_MỚI\JiraProject\obj\Debug\net8.0\JiraProject.pdb
+D:\QLCVHT ANGILE\Web Đếm ngược ngày thi\Tài_MỚI\JiraProject\obj\Debug\net8.0\JiraProject.genruntimeconfig.cache
+D:\QLCVHT ANGILE\Web Đếm ngược ngày thi\Tài_MỚI\JiraProject\obj\Debug\net8.0\ref\JiraProject.dll
+D:\Web Đếm ngược ngày thi\Tài\JiraProject\bin\Debug\net8.0\appsettings.Development.json
+D:\Web Đếm ngược ngày thi\Tài\JiraProject\bin\Debug\net8.0\appsettings.json
+D:\Web Đếm ngược ngày thi\Tài\JiraProject\bin\Debug\net8.0\JiraProject.staticwebassets.runtime.json
+D:\Web Đếm ngược ngày thi\Tài\JiraProject\bin\Debug\net8.0\JiraProject.staticwebassets.endpoints.json
+D:\Web Đếm ngược ngày thi\Tài\JiraProject\bin\Debug\net8.0\JiraProject.exe
+D:\Web Đếm ngược ngày thi\Tài\JiraProject\bin\Debug\net8.0\wwwroot\index.html
+D:\Web Đếm ngược ngày thi\Tài\JiraProject\bin\Debug\net8.0\JiraProject.deps.json
+D:\Web Đếm ngược ngày thi\Tài\JiraProject\bin\Debug\net8.0\JiraProject.runtimeconfig.json
+D:\Web Đếm ngược ngày thi\Tài\JiraProject\bin\Debug\net8.0\JiraProject.dll
+D:\Web Đếm ngược ngày thi\Tài\JiraProject\bin\Debug\net8.0\JiraProject.pdb
+D:\Web Đếm ngược ngày thi\Tài\JiraProject\bin\Debug\net8.0\Humanizer.dll
+D:\Web Đếm ngược ngày thi\Tài\JiraProject\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Web Đếm ngược ngày thi\Tài\JiraProject\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
+D:\Web Đếm ngược ngày thi\Tài\JiraProject\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
+D:\Web Đếm ngược ngày thi\Tài\JiraProject\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+D:\Web Đếm ngược ngày thi\Tài\JiraProject\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.dll
+D:\Web Đếm ngược ngày thi\Tài\JiraProject\bin\Debug\net8.0\Microsoft.Data.Sqlite.dll
+D:\Web Đếm ngược ngày thi\Tài\JiraProject\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+D:\Web Đếm ngược ngày thi\Tài\JiraProject\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\Web Đếm ngược ngày thi\Tài\JiraProject\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\Web Đếm ngược ngày thi\Tài\JiraProject\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\Web Đếm ngược ngày thi\Tài\JiraProject\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Sqlite.dll
+D:\Web Đếm ngược ngày thi\Tài\JiraProject\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+D:\Web Đếm ngược ngày thi\Tài\JiraProject\bin\Debug\net8.0\Microsoft.OpenApi.dll
+D:\Web Đếm ngược ngày thi\Tài\JiraProject\bin\Debug\net8.0\Mono.TextTemplating.dll
+D:\Web Đếm ngược ngày thi\Tài\JiraProject\bin\Debug\net8.0\SQLitePCLRaw.batteries_v2.dll
+D:\Web Đếm ngược ngày thi\Tài\JiraProject\bin\Debug\net8.0\SQLitePCLRaw.core.dll
+D:\Web Đếm ngược ngày thi\Tài\JiraProject\bin\Debug\net8.0\SQLitePCLRaw.provider.e_sqlite3.dll
+D:\Web Đếm ngược ngày thi\Tài\JiraProject\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\Web Đếm ngược ngày thi\Tài\JiraProject\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\Web Đếm ngược ngày thi\Tài\JiraProject\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\Web Đếm ngược ngày thi\Tài\JiraProject\bin\Debug\net8.0\System.CodeDom.dll
+D:\Web Đếm ngược ngày thi\Tài\JiraProject\bin\Debug\net8.0\System.Composition.AttributedModel.dll
+D:\Web Đếm ngược ngày thi\Tài\JiraProject\bin\Debug\net8.0\System.Composition.Convention.dll
+D:\Web Đếm ngược ngày thi\Tài\JiraProject\bin\Debug\net8.0\System.Composition.Hosting.dll
+D:\Web Đếm ngược ngày thi\Tài\JiraProject\bin\Debug\net8.0\System.Composition.Runtime.dll
+D:\Web Đếm ngược ngày thi\Tài\JiraProject\bin\Debug\net8.0\System.Composition.TypedParts.dll
+D:\Web Đếm ngược ngày thi\Tài\JiraProject\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.resources.dll
+D:\Web Đếm ngược ngày thi\Tài\JiraProject\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.resources.dll
+D:\Web Đếm ngược ngày thi\Tài\JiraProject\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.resources.dll
+D:\Web Đếm ngược ngày thi\Tài\JiraProject\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.resources.dll
+D:\Web Đếm ngược ngày thi\Tài\JiraProject\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.resources.dll
+D:\Web Đếm ngược ngày thi\Tài\JiraProject\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.resources.dll
+D:\Web Đếm ngược ngày thi\Tài\JiraProject\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.resources.dll
+D:\Web Đếm ngược ngày thi\Tài\JiraProject\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.resources.dll
+D:\Web Đếm ngược ngày thi\Tài\JiraProject\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+D:\Web Đếm ngược ngày thi\Tài\JiraProject\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.resources.dll
+D:\Web Đếm ngược ngày thi\Tài\JiraProject\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.resources.dll
+D:\Web Đếm ngược ngày thi\Tài\JiraProject\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+D:\Web Đếm ngược ngày thi\Tài\JiraProject\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+D:\Web Đếm ngược ngày thi\Tài\JiraProject\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Web Đếm ngược ngày thi\Tài\JiraProject\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Web Đếm ngược ngày thi\Tài\JiraProject\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Web Đếm ngược ngày thi\Tài\JiraProject\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Web Đếm ngược ngày thi\Tài\JiraProject\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Web Đếm ngược ngày thi\Tài\JiraProject\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Web Đếm ngược ngày thi\Tài\JiraProject\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Web Đếm ngược ngày thi\Tài\JiraProject\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Web Đếm ngược ngày thi\Tài\JiraProject\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Web Đếm ngược ngày thi\Tài\JiraProject\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Web Đếm ngược ngày thi\Tài\JiraProject\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Web Đếm ngược ngày thi\Tài\JiraProject\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Web Đếm ngược ngày thi\Tài\JiraProject\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Web Đếm ngược ngày thi\Tài\JiraProject\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Web Đếm ngược ngày thi\Tài\JiraProject\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Web Đếm ngược ngày thi\Tài\JiraProject\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Web Đếm ngược ngày thi\Tài\JiraProject\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Web Đếm ngược ngày thi\Tài\JiraProject\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Web Đếm ngược ngày thi\Tài\JiraProject\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Web Đếm ngược ngày thi\Tài\JiraProject\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Web Đếm ngược ngày thi\Tài\JiraProject\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Web Đếm ngược ngày thi\Tài\JiraProject\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Web Đếm ngược ngày thi\Tài\JiraProject\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Web Đếm ngược ngày thi\Tài\JiraProject\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Web Đếm ngược ngày thi\Tài\JiraProject\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Web Đếm ngược ngày thi\Tài\JiraProject\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Web Đếm ngược ngày thi\Tài\JiraProject\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Web Đếm ngược ngày thi\Tài\JiraProject\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Web Đếm ngược ngày thi\Tài\JiraProject\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Web Đếm ngược ngày thi\Tài\JiraProject\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Web Đếm ngược ngày thi\Tài\JiraProject\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Web Đếm ngược ngày thi\Tài\JiraProject\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Web Đếm ngược ngày thi\Tài\JiraProject\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Web Đếm ngược ngày thi\Tài\JiraProject\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Web Đếm ngược ngày thi\Tài\JiraProject\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Web Đếm ngược ngày thi\Tài\JiraProject\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Web Đếm ngược ngày thi\Tài\JiraProject\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Web Đếm ngược ngày thi\Tài\JiraProject\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Web Đếm ngược ngày thi\Tài\JiraProject\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Web Đếm ngược ngày thi\Tài\JiraProject\bin\Debug\net8.0\runtimes\browser-wasm\nativeassets\net8.0\e_sqlite3.a
+D:\Web Đếm ngược ngày thi\Tài\JiraProject\bin\Debug\net8.0\runtimes\linux-arm\native\libe_sqlite3.so
+D:\Web Đếm ngược ngày thi\Tài\JiraProject\bin\Debug\net8.0\runtimes\linux-arm64\native\libe_sqlite3.so
+D:\Web Đếm ngược ngày thi\Tài\JiraProject\bin\Debug\net8.0\runtimes\linux-armel\native\libe_sqlite3.so
+D:\Web Đếm ngược ngày thi\Tài\JiraProject\bin\Debug\net8.0\runtimes\linux-mips64\native\libe_sqlite3.so
+D:\Web Đếm ngược ngày thi\Tài\JiraProject\bin\Debug\net8.0\runtimes\linux-musl-arm\native\libe_sqlite3.so
+D:\Web Đếm ngược ngày thi\Tài\JiraProject\bin\Debug\net8.0\runtimes\linux-musl-arm64\native\libe_sqlite3.so
+D:\Web Đếm ngược ngày thi\Tài\JiraProject\bin\Debug\net8.0\runtimes\linux-musl-x64\native\libe_sqlite3.so
+D:\Web Đếm ngược ngày thi\Tài\JiraProject\bin\Debug\net8.0\runtimes\linux-ppc64le\native\libe_sqlite3.so
+D:\Web Đếm ngược ngày thi\Tài\JiraProject\bin\Debug\net8.0\runtimes\linux-s390x\native\libe_sqlite3.so
+D:\Web Đếm ngược ngày thi\Tài\JiraProject\bin\Debug\net8.0\runtimes\linux-x64\native\libe_sqlite3.so
+D:\Web Đếm ngược ngày thi\Tài\JiraProject\bin\Debug\net8.0\runtimes\linux-x86\native\libe_sqlite3.so
+D:\Web Đếm ngược ngày thi\Tài\JiraProject\bin\Debug\net8.0\runtimes\maccatalyst-arm64\native\libe_sqlite3.dylib
+D:\Web Đếm ngược ngày thi\Tài\JiraProject\bin\Debug\net8.0\runtimes\maccatalyst-x64\native\libe_sqlite3.dylib
+D:\Web Đếm ngược ngày thi\Tài\JiraProject\bin\Debug\net8.0\runtimes\osx-arm64\native\libe_sqlite3.dylib
+D:\Web Đếm ngược ngày thi\Tài\JiraProject\bin\Debug\net8.0\runtimes\osx-x64\native\libe_sqlite3.dylib
+D:\Web Đếm ngược ngày thi\Tài\JiraProject\bin\Debug\net8.0\runtimes\win-arm\native\e_sqlite3.dll
+D:\Web Đếm ngược ngày thi\Tài\JiraProject\bin\Debug\net8.0\runtimes\win-arm64\native\e_sqlite3.dll
+D:\Web Đếm ngược ngày thi\Tài\JiraProject\bin\Debug\net8.0\runtimes\win-x64\native\e_sqlite3.dll
+D:\Web Đếm ngược ngày thi\Tài\JiraProject\bin\Debug\net8.0\runtimes\win-x86\native\e_sqlite3.dll
+D:\Web Đếm ngược ngày thi\Tài\JiraProject\obj\Debug\net8.0\JiraProject.csproj.AssemblyReference.cache
+D:\Web Đếm ngược ngày thi\Tài\JiraProject\obj\Debug\net8.0\rpswa.dswa.cache.json
+D:\Web Đếm ngược ngày thi\Tài\JiraProject\obj\Debug\net8.0\JiraProject.GeneratedMSBuildEditorConfig.editorconfig
+D:\Web Đếm ngược ngày thi\Tài\JiraProject\obj\Debug\net8.0\JiraProject.AssemblyInfoInputs.cache
+D:\Web Đếm ngược ngày thi\Tài\JiraProject\obj\Debug\net8.0\JiraProject.AssemblyInfo.cs
+D:\Web Đếm ngược ngày thi\Tài\JiraProject\obj\Debug\net8.0\JiraProject.csproj.CoreCompileInputs.cache
+D:\Web Đếm ngược ngày thi\Tài\JiraProject\obj\Debug\net8.0\JiraProject.MvcApplicationPartsAssemblyInfo.cs
+D:\Web Đếm ngược ngày thi\Tài\JiraProject\obj\Debug\net8.0\JiraProject.MvcApplicationPartsAssemblyInfo.cache
+D:\Web Đếm ngược ngày thi\Tài\JiraProject\obj\Debug\net8.0\rjimswa.dswa.cache.json
+D:\Web Đếm ngược ngày thi\Tài\JiraProject\obj\Debug\net8.0\rjsmrazor.dswa.cache.json
+D:\Web Đếm ngược ngày thi\Tài\JiraProject\obj\Debug\net8.0\rjsmcshtml.dswa.cache.json
+D:\Web Đếm ngược ngày thi\Tài\JiraProject\obj\Debug\net8.0\scopedcss\bundle\JiraProject.styles.css
+D:\Web Đếm ngược ngày thi\Tài\JiraProject\obj\Debug\net8.0\staticwebassets.build.json
+D:\Web Đếm ngược ngày thi\Tài\JiraProject\obj\Debug\net8.0\staticwebassets.build.json.cache
+D:\Web Đếm ngược ngày thi\Tài\JiraProject\obj\Debug\net8.0\staticwebassets.development.json
+D:\Web Đếm ngược ngày thi\Tài\JiraProject\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+D:\Web Đếm ngược ngày thi\Tài\JiraProject\obj\Debug\net8.0\swae.build.ex.cache
+D:\Web Đếm ngược ngày thi\Tài\JiraProject\obj\Debug\net8.0\JiraProj.BABBF7DD.Up2Date
+D:\Web Đếm ngược ngày thi\Tài\JiraProject\obj\Debug\net8.0\JiraProject.dll
+D:\Web Đếm ngược ngày thi\Tài\JiraProject\obj\Debug\net8.0\refint\JiraProject.dll
+D:\Web Đếm ngược ngày thi\Tài\JiraProject\obj\Debug\net8.0\JiraProject.pdb
+D:\Web Đếm ngược ngày thi\Tài\JiraProject\obj\Debug\net8.0\JiraProject.genruntimeconfig.cache
+D:\Web Đếm ngược ngày thi\Tài\JiraProject\obj\Debug\net8.0\ref\JiraProject.dll
+D:\QLHQCV\JiraProject\bin\Debug\net8.0\appsettings.Development.json
+D:\QLHQCV\JiraProject\bin\Debug\net8.0\appsettings.json
+D:\QLHQCV\JiraProject\bin\Debug\net8.0\JiraProject.staticwebassets.runtime.json
+D:\QLHQCV\JiraProject\bin\Debug\net8.0\JiraProject.staticwebassets.endpoints.json
+D:\QLHQCV\JiraProject\bin\Debug\net8.0\JiraProject.exe
+D:\QLHQCV\JiraProject\bin\Debug\net8.0\wwwroot\index.html
+D:\QLHQCV\JiraProject\bin\Debug\net8.0\JiraProject.deps.json
+D:\QLHQCV\JiraProject\bin\Debug\net8.0\JiraProject.runtimeconfig.json
+D:\QLHQCV\JiraProject\bin\Debug\net8.0\JiraProject.dll
+D:\QLHQCV\JiraProject\bin\Debug\net8.0\JiraProject.pdb
+D:\QLHQCV\JiraProject\bin\Debug\net8.0\Humanizer.dll
+D:\QLHQCV\JiraProject\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\QLHQCV\JiraProject\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
+D:\QLHQCV\JiraProject\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
+D:\QLHQCV\JiraProject\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+D:\QLHQCV\JiraProject\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.dll
+D:\QLHQCV\JiraProject\bin\Debug\net8.0\Microsoft.Data.Sqlite.dll
+D:\QLHQCV\JiraProject\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+D:\QLHQCV\JiraProject\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\QLHQCV\JiraProject\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\QLHQCV\JiraProject\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\QLHQCV\JiraProject\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Sqlite.dll
+D:\QLHQCV\JiraProject\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+D:\QLHQCV\JiraProject\bin\Debug\net8.0\Microsoft.OpenApi.dll
+D:\QLHQCV\JiraProject\bin\Debug\net8.0\Mono.TextTemplating.dll
+D:\QLHQCV\JiraProject\bin\Debug\net8.0\SQLitePCLRaw.batteries_v2.dll
+D:\QLHQCV\JiraProject\bin\Debug\net8.0\SQLitePCLRaw.core.dll
+D:\QLHQCV\JiraProject\bin\Debug\net8.0\SQLitePCLRaw.provider.e_sqlite3.dll
+D:\QLHQCV\JiraProject\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\QLHQCV\JiraProject\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\QLHQCV\JiraProject\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\QLHQCV\JiraProject\bin\Debug\net8.0\System.CodeDom.dll
+D:\QLHQCV\JiraProject\bin\Debug\net8.0\System.Composition.AttributedModel.dll
+D:\QLHQCV\JiraProject\bin\Debug\net8.0\System.Composition.Convention.dll
+D:\QLHQCV\JiraProject\bin\Debug\net8.0\System.Composition.Hosting.dll
+D:\QLHQCV\JiraProject\bin\Debug\net8.0\System.Composition.Runtime.dll
+D:\QLHQCV\JiraProject\bin\Debug\net8.0\System.Composition.TypedParts.dll
+D:\QLHQCV\JiraProject\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.resources.dll
+D:\QLHQCV\JiraProject\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.resources.dll
+D:\QLHQCV\JiraProject\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.resources.dll
+D:\QLHQCV\JiraProject\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.resources.dll
+D:\QLHQCV\JiraProject\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.resources.dll
+D:\QLHQCV\JiraProject\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.resources.dll
+D:\QLHQCV\JiraProject\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.resources.dll
+D:\QLHQCV\JiraProject\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.resources.dll
+D:\QLHQCV\JiraProject\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+D:\QLHQCV\JiraProject\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.resources.dll
+D:\QLHQCV\JiraProject\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.resources.dll
+D:\QLHQCV\JiraProject\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+D:\QLHQCV\JiraProject\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+D:\QLHQCV\JiraProject\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\QLHQCV\JiraProject\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\QLHQCV\JiraProject\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\QLHQCV\JiraProject\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\QLHQCV\JiraProject\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\QLHQCV\JiraProject\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\QLHQCV\JiraProject\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\QLHQCV\JiraProject\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\QLHQCV\JiraProject\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\QLHQCV\JiraProject\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\QLHQCV\JiraProject\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\QLHQCV\JiraProject\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\QLHQCV\JiraProject\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\QLHQCV\JiraProject\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\QLHQCV\JiraProject\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\QLHQCV\JiraProject\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\QLHQCV\JiraProject\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\QLHQCV\JiraProject\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\QLHQCV\JiraProject\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\QLHQCV\JiraProject\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\QLHQCV\JiraProject\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\QLHQCV\JiraProject\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\QLHQCV\JiraProject\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\QLHQCV\JiraProject\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\QLHQCV\JiraProject\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\QLHQCV\JiraProject\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\QLHQCV\JiraProject\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\QLHQCV\JiraProject\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\QLHQCV\JiraProject\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\QLHQCV\JiraProject\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\QLHQCV\JiraProject\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\QLHQCV\JiraProject\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\QLHQCV\JiraProject\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\QLHQCV\JiraProject\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\QLHQCV\JiraProject\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\QLHQCV\JiraProject\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\QLHQCV\JiraProject\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\QLHQCV\JiraProject\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\QLHQCV\JiraProject\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\QLHQCV\JiraProject\bin\Debug\net8.0\runtimes\browser-wasm\nativeassets\net8.0\e_sqlite3.a
+D:\QLHQCV\JiraProject\bin\Debug\net8.0\runtimes\linux-arm\native\libe_sqlite3.so
+D:\QLHQCV\JiraProject\bin\Debug\net8.0\runtimes\linux-arm64\native\libe_sqlite3.so
+D:\QLHQCV\JiraProject\bin\Debug\net8.0\runtimes\linux-armel\native\libe_sqlite3.so
+D:\QLHQCV\JiraProject\bin\Debug\net8.0\runtimes\linux-mips64\native\libe_sqlite3.so
+D:\QLHQCV\JiraProject\bin\Debug\net8.0\runtimes\linux-musl-arm\native\libe_sqlite3.so
+D:\QLHQCV\JiraProject\bin\Debug\net8.0\runtimes\linux-musl-arm64\native\libe_sqlite3.so
+D:\QLHQCV\JiraProject\bin\Debug\net8.0\runtimes\linux-musl-x64\native\libe_sqlite3.so
+D:\QLHQCV\JiraProject\bin\Debug\net8.0\runtimes\linux-ppc64le\native\libe_sqlite3.so
+D:\QLHQCV\JiraProject\bin\Debug\net8.0\runtimes\linux-s390x\native\libe_sqlite3.so
+D:\QLHQCV\JiraProject\bin\Debug\net8.0\runtimes\linux-x64\native\libe_sqlite3.so
+D:\QLHQCV\JiraProject\bin\Debug\net8.0\runtimes\linux-x86\native\libe_sqlite3.so
+D:\QLHQCV\JiraProject\bin\Debug\net8.0\runtimes\maccatalyst-arm64\native\libe_sqlite3.dylib
+D:\QLHQCV\JiraProject\bin\Debug\net8.0\runtimes\maccatalyst-x64\native\libe_sqlite3.dylib
+D:\QLHQCV\JiraProject\bin\Debug\net8.0\runtimes\osx-arm64\native\libe_sqlite3.dylib
+D:\QLHQCV\JiraProject\bin\Debug\net8.0\runtimes\osx-x64\native\libe_sqlite3.dylib
+D:\QLHQCV\JiraProject\bin\Debug\net8.0\runtimes\win-arm\native\e_sqlite3.dll
+D:\QLHQCV\JiraProject\bin\Debug\net8.0\runtimes\win-arm64\native\e_sqlite3.dll
+D:\QLHQCV\JiraProject\bin\Debug\net8.0\runtimes\win-x64\native\e_sqlite3.dll
+D:\QLHQCV\JiraProject\bin\Debug\net8.0\runtimes\win-x86\native\e_sqlite3.dll
+D:\QLHQCV\JiraProject\obj\Debug\net8.0\JiraProject.csproj.AssemblyReference.cache
+D:\QLHQCV\JiraProject\obj\Debug\net8.0\rpswa.dswa.cache.json
+D:\QLHQCV\JiraProject\obj\Debug\net8.0\JiraProject.GeneratedMSBuildEditorConfig.editorconfig
+D:\QLHQCV\JiraProject\obj\Debug\net8.0\JiraProject.AssemblyInfoInputs.cache
+D:\QLHQCV\JiraProject\obj\Debug\net8.0\JiraProject.AssemblyInfo.cs
+D:\QLHQCV\JiraProject\obj\Debug\net8.0\JiraProject.csproj.CoreCompileInputs.cache
+D:\QLHQCV\JiraProject\obj\Debug\net8.0\JiraProject.MvcApplicationPartsAssemblyInfo.cs
+D:\QLHQCV\JiraProject\obj\Debug\net8.0\JiraProject.MvcApplicationPartsAssemblyInfo.cache
+D:\QLHQCV\JiraProject\obj\Debug\net8.0\rjimswa.dswa.cache.json
+D:\QLHQCV\JiraProject\obj\Debug\net8.0\rjsmrazor.dswa.cache.json
+D:\QLHQCV\JiraProject\obj\Debug\net8.0\rjsmcshtml.dswa.cache.json
+D:\QLHQCV\JiraProject\obj\Debug\net8.0\scopedcss\bundle\JiraProject.styles.css
+D:\QLHQCV\JiraProject\obj\Debug\net8.0\staticwebassets.build.json
+D:\QLHQCV\JiraProject\obj\Debug\net8.0\staticwebassets.build.json.cache
+D:\QLHQCV\JiraProject\obj\Debug\net8.0\staticwebassets.development.json
+D:\QLHQCV\JiraProject\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+D:\QLHQCV\JiraProject\obj\Debug\net8.0\swae.build.ex.cache
+D:\QLHQCV\JiraProject\obj\Debug\net8.0\JiraProj.BABBF7DD.Up2Date
+D:\QLHQCV\JiraProject\obj\Debug\net8.0\JiraProject.dll
+D:\QLHQCV\JiraProject\obj\Debug\net8.0\refint\JiraProject.dll
+D:\QLHQCV\JiraProject\obj\Debug\net8.0\JiraProject.pdb
+D:\QLHQCV\JiraProject\obj\Debug\net8.0\JiraProject.genruntimeconfig.cache
+D:\QLHQCV\JiraProject\obj\Debug\net8.0\ref\JiraProject.dll
+D:\Cuối kì QLCVHQ\QLHQCV\JiraProject\bin\Debug\net8.0\appsettings.Development.json
+D:\Cuối kì QLCVHQ\QLHQCV\JiraProject\bin\Debug\net8.0\appsettings.json
+D:\Cuối kì QLCVHQ\QLHQCV\JiraProject\bin\Debug\net8.0\JiraProject.staticwebassets.runtime.json
+D:\Cuối kì QLCVHQ\QLHQCV\JiraProject\bin\Debug\net8.0\JiraProject.staticwebassets.endpoints.json
+D:\Cuối kì QLCVHQ\QLHQCV\JiraProject\bin\Debug\net8.0\JiraProject.exe
+D:\Cuối kì QLCVHQ\QLHQCV\JiraProject\bin\Debug\net8.0\wwwroot\index.html
+D:\Cuối kì QLCVHQ\QLHQCV\JiraProject\bin\Debug\net8.0\JiraProject.deps.json
+D:\Cuối kì QLCVHQ\QLHQCV\JiraProject\bin\Debug\net8.0\JiraProject.runtimeconfig.json
+D:\Cuối kì QLCVHQ\QLHQCV\JiraProject\bin\Debug\net8.0\JiraProject.dll
+D:\Cuối kì QLCVHQ\QLHQCV\JiraProject\bin\Debug\net8.0\JiraProject.pdb
+D:\Cuối kì QLCVHQ\QLHQCV\JiraProject\bin\Debug\net8.0\Humanizer.dll
+D:\Cuối kì QLCVHQ\QLHQCV\JiraProject\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Cuối kì QLCVHQ\QLHQCV\JiraProject\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
+D:\Cuối kì QLCVHQ\QLHQCV\JiraProject\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
+D:\Cuối kì QLCVHQ\QLHQCV\JiraProject\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+D:\Cuối kì QLCVHQ\QLHQCV\JiraProject\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.dll
+D:\Cuối kì QLCVHQ\QLHQCV\JiraProject\bin\Debug\net8.0\Microsoft.Data.Sqlite.dll
+D:\Cuối kì QLCVHQ\QLHQCV\JiraProject\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+D:\Cuối kì QLCVHQ\QLHQCV\JiraProject\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\Cuối kì QLCVHQ\QLHQCV\JiraProject\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\Cuối kì QLCVHQ\QLHQCV\JiraProject\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\Cuối kì QLCVHQ\QLHQCV\JiraProject\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Sqlite.dll
+D:\Cuối kì QLCVHQ\QLHQCV\JiraProject\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+D:\Cuối kì QLCVHQ\QLHQCV\JiraProject\bin\Debug\net8.0\Microsoft.OpenApi.dll
+D:\Cuối kì QLCVHQ\QLHQCV\JiraProject\bin\Debug\net8.0\Mono.TextTemplating.dll
+D:\Cuối kì QLCVHQ\QLHQCV\JiraProject\bin\Debug\net8.0\SQLitePCLRaw.batteries_v2.dll
+D:\Cuối kì QLCVHQ\QLHQCV\JiraProject\bin\Debug\net8.0\SQLitePCLRaw.core.dll
+D:\Cuối kì QLCVHQ\QLHQCV\JiraProject\bin\Debug\net8.0\SQLitePCLRaw.provider.e_sqlite3.dll
+D:\Cuối kì QLCVHQ\QLHQCV\JiraProject\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\Cuối kì QLCVHQ\QLHQCV\JiraProject\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\Cuối kì QLCVHQ\QLHQCV\JiraProject\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\Cuối kì QLCVHQ\QLHQCV\JiraProject\bin\Debug\net8.0\System.CodeDom.dll
+D:\Cuối kì QLCVHQ\QLHQCV\JiraProject\bin\Debug\net8.0\System.Composition.AttributedModel.dll
+D:\Cuối kì QLCVHQ\QLHQCV\JiraProject\bin\Debug\net8.0\System.Composition.Convention.dll
+D:\Cuối kì QLCVHQ\QLHQCV\JiraProject\bin\Debug\net8.0\System.Composition.Hosting.dll
+D:\Cuối kì QLCVHQ\QLHQCV\JiraProject\bin\Debug\net8.0\System.Composition.Runtime.dll
+D:\Cuối kì QLCVHQ\QLHQCV\JiraProject\bin\Debug\net8.0\System.Composition.TypedParts.dll
+D:\Cuối kì QLCVHQ\QLHQCV\JiraProject\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.resources.dll
+D:\Cuối kì QLCVHQ\QLHQCV\JiraProject\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.resources.dll
+D:\Cuối kì QLCVHQ\QLHQCV\JiraProject\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.resources.dll
+D:\Cuối kì QLCVHQ\QLHQCV\JiraProject\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.resources.dll
+D:\Cuối kì QLCVHQ\QLHQCV\JiraProject\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.resources.dll
+D:\Cuối kì QLCVHQ\QLHQCV\JiraProject\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.resources.dll
+D:\Cuối kì QLCVHQ\QLHQCV\JiraProject\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.resources.dll
+D:\Cuối kì QLCVHQ\QLHQCV\JiraProject\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.resources.dll
+D:\Cuối kì QLCVHQ\QLHQCV\JiraProject\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+D:\Cuối kì QLCVHQ\QLHQCV\JiraProject\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.resources.dll
+D:\Cuối kì QLCVHQ\QLHQCV\JiraProject\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.resources.dll
+D:\Cuối kì QLCVHQ\QLHQCV\JiraProject\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+D:\Cuối kì QLCVHQ\QLHQCV\JiraProject\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+D:\Cuối kì QLCVHQ\QLHQCV\JiraProject\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Cuối kì QLCVHQ\QLHQCV\JiraProject\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Cuối kì QLCVHQ\QLHQCV\JiraProject\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Cuối kì QLCVHQ\QLHQCV\JiraProject\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Cuối kì QLCVHQ\QLHQCV\JiraProject\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Cuối kì QLCVHQ\QLHQCV\JiraProject\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Cuối kì QLCVHQ\QLHQCV\JiraProject\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Cuối kì QLCVHQ\QLHQCV\JiraProject\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Cuối kì QLCVHQ\QLHQCV\JiraProject\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Cuối kì QLCVHQ\QLHQCV\JiraProject\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Cuối kì QLCVHQ\QLHQCV\JiraProject\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Cuối kì QLCVHQ\QLHQCV\JiraProject\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Cuối kì QLCVHQ\QLHQCV\JiraProject\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Cuối kì QLCVHQ\QLHQCV\JiraProject\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Cuối kì QLCVHQ\QLHQCV\JiraProject\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Cuối kì QLCVHQ\QLHQCV\JiraProject\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Cuối kì QLCVHQ\QLHQCV\JiraProject\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Cuối kì QLCVHQ\QLHQCV\JiraProject\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Cuối kì QLCVHQ\QLHQCV\JiraProject\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Cuối kì QLCVHQ\QLHQCV\JiraProject\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Cuối kì QLCVHQ\QLHQCV\JiraProject\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Cuối kì QLCVHQ\QLHQCV\JiraProject\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Cuối kì QLCVHQ\QLHQCV\JiraProject\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Cuối kì QLCVHQ\QLHQCV\JiraProject\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Cuối kì QLCVHQ\QLHQCV\JiraProject\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Cuối kì QLCVHQ\QLHQCV\JiraProject\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Cuối kì QLCVHQ\QLHQCV\JiraProject\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Cuối kì QLCVHQ\QLHQCV\JiraProject\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Cuối kì QLCVHQ\QLHQCV\JiraProject\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Cuối kì QLCVHQ\QLHQCV\JiraProject\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Cuối kì QLCVHQ\QLHQCV\JiraProject\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Cuối kì QLCVHQ\QLHQCV\JiraProject\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Cuối kì QLCVHQ\QLHQCV\JiraProject\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Cuối kì QLCVHQ\QLHQCV\JiraProject\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Cuối kì QLCVHQ\QLHQCV\JiraProject\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Cuối kì QLCVHQ\QLHQCV\JiraProject\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Cuối kì QLCVHQ\QLHQCV\JiraProject\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Cuối kì QLCVHQ\QLHQCV\JiraProject\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Cuối kì QLCVHQ\QLHQCV\JiraProject\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Cuối kì QLCVHQ\QLHQCV\JiraProject\bin\Debug\net8.0\runtimes\browser-wasm\nativeassets\net8.0\e_sqlite3.a
+D:\Cuối kì QLCVHQ\QLHQCV\JiraProject\bin\Debug\net8.0\runtimes\linux-arm\native\libe_sqlite3.so
+D:\Cuối kì QLCVHQ\QLHQCV\JiraProject\bin\Debug\net8.0\runtimes\linux-arm64\native\libe_sqlite3.so
+D:\Cuối kì QLCVHQ\QLHQCV\JiraProject\bin\Debug\net8.0\runtimes\linux-armel\native\libe_sqlite3.so
+D:\Cuối kì QLCVHQ\QLHQCV\JiraProject\bin\Debug\net8.0\runtimes\linux-mips64\native\libe_sqlite3.so
+D:\Cuối kì QLCVHQ\QLHQCV\JiraProject\bin\Debug\net8.0\runtimes\linux-musl-arm\native\libe_sqlite3.so
+D:\Cuối kì QLCVHQ\QLHQCV\JiraProject\bin\Debug\net8.0\runtimes\linux-musl-arm64\native\libe_sqlite3.so
+D:\Cuối kì QLCVHQ\QLHQCV\JiraProject\bin\Debug\net8.0\runtimes\linux-musl-x64\native\libe_sqlite3.so
+D:\Cuối kì QLCVHQ\QLHQCV\JiraProject\bin\Debug\net8.0\runtimes\linux-ppc64le\native\libe_sqlite3.so
+D:\Cuối kì QLCVHQ\QLHQCV\JiraProject\bin\Debug\net8.0\runtimes\linux-s390x\native\libe_sqlite3.so
+D:\Cuối kì QLCVHQ\QLHQCV\JiraProject\bin\Debug\net8.0\runtimes\linux-x64\native\libe_sqlite3.so
+D:\Cuối kì QLCVHQ\QLHQCV\JiraProject\bin\Debug\net8.0\runtimes\linux-x86\native\libe_sqlite3.so
+D:\Cuối kì QLCVHQ\QLHQCV\JiraProject\bin\Debug\net8.0\runtimes\maccatalyst-arm64\native\libe_sqlite3.dylib
+D:\Cuối kì QLCVHQ\QLHQCV\JiraProject\bin\Debug\net8.0\runtimes\maccatalyst-x64\native\libe_sqlite3.dylib
+D:\Cuối kì QLCVHQ\QLHQCV\JiraProject\bin\Debug\net8.0\runtimes\osx-arm64\native\libe_sqlite3.dylib
+D:\Cuối kì QLCVHQ\QLHQCV\JiraProject\bin\Debug\net8.0\runtimes\osx-x64\native\libe_sqlite3.dylib
+D:\Cuối kì QLCVHQ\QLHQCV\JiraProject\bin\Debug\net8.0\runtimes\win-arm\native\e_sqlite3.dll
+D:\Cuối kì QLCVHQ\QLHQCV\JiraProject\bin\Debug\net8.0\runtimes\win-arm64\native\e_sqlite3.dll
+D:\Cuối kì QLCVHQ\QLHQCV\JiraProject\bin\Debug\net8.0\runtimes\win-x64\native\e_sqlite3.dll
+D:\Cuối kì QLCVHQ\QLHQCV\JiraProject\bin\Debug\net8.0\runtimes\win-x86\native\e_sqlite3.dll
+D:\Cuối kì QLCVHQ\QLHQCV\JiraProject\obj\Debug\net8.0\JiraProject.csproj.AssemblyReference.cache
+D:\Cuối kì QLCVHQ\QLHQCV\JiraProject\obj\Debug\net8.0\rpswa.dswa.cache.json
+D:\Cuối kì QLCVHQ\QLHQCV\JiraProject\obj\Debug\net8.0\JiraProject.GeneratedMSBuildEditorConfig.editorconfig
+D:\Cuối kì QLCVHQ\QLHQCV\JiraProject\obj\Debug\net8.0\JiraProject.AssemblyInfoInputs.cache
+D:\Cuối kì QLCVHQ\QLHQCV\JiraProject\obj\Debug\net8.0\JiraProject.AssemblyInfo.cs
+D:\Cuối kì QLCVHQ\QLHQCV\JiraProject\obj\Debug\net8.0\JiraProject.csproj.CoreCompileInputs.cache
+D:\Cuối kì QLCVHQ\QLHQCV\JiraProject\obj\Debug\net8.0\JiraProject.MvcApplicationPartsAssemblyInfo.cs
+D:\Cuối kì QLCVHQ\QLHQCV\JiraProject\obj\Debug\net8.0\JiraProject.MvcApplicationPartsAssemblyInfo.cache
+D:\Cuối kì QLCVHQ\QLHQCV\JiraProject\obj\Debug\net8.0\rjimswa.dswa.cache.json
+D:\Cuối kì QLCVHQ\QLHQCV\JiraProject\obj\Debug\net8.0\rjsmrazor.dswa.cache.json
+D:\Cuối kì QLCVHQ\QLHQCV\JiraProject\obj\Debug\net8.0\rjsmcshtml.dswa.cache.json
+D:\Cuối kì QLCVHQ\QLHQCV\JiraProject\obj\Debug\net8.0\scopedcss\bundle\JiraProject.styles.css
+D:\Cuối kì QLCVHQ\QLHQCV\JiraProject\obj\Debug\net8.0\staticwebassets.build.json
+D:\Cuối kì QLCVHQ\QLHQCV\JiraProject\obj\Debug\net8.0\staticwebassets.build.json.cache
+D:\Cuối kì QLCVHQ\QLHQCV\JiraProject\obj\Debug\net8.0\staticwebassets.development.json
+D:\Cuối kì QLCVHQ\QLHQCV\JiraProject\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+D:\Cuối kì QLCVHQ\QLHQCV\JiraProject\obj\Debug\net8.0\swae.build.ex.cache
+D:\Cuối kì QLCVHQ\QLHQCV\JiraProject\obj\Debug\net8.0\JiraProj.BABBF7DD.Up2Date
+D:\Cuối kì QLCVHQ\QLHQCV\JiraProject\obj\Debug\net8.0\JiraProject.dll
+D:\Cuối kì QLCVHQ\QLHQCV\JiraProject\obj\Debug\net8.0\refint\JiraProject.dll
+D:\Cuối kì QLCVHQ\QLHQCV\JiraProject\obj\Debug\net8.0\JiraProject.pdb
+D:\Cuối kì QLCVHQ\QLHQCV\JiraProject\obj\Debug\net8.0\JiraProject.genruntimeconfig.cache
+D:\Cuối kì QLCVHQ\QLHQCV\JiraProject\obj\Debug\net8.0\ref\JiraProject.dll
+D:\Cuối kì QLCVHQ\ĐANG LÀM_QLHQCV\JiraProject\bin\Debug\net8.0\appsettings.Development.json
+D:\Cuối kì QLCVHQ\ĐANG LÀM_QLHQCV\JiraProject\bin\Debug\net8.0\appsettings.json
+D:\Cuối kì QLCVHQ\ĐANG LÀM_QLHQCV\JiraProject\bin\Debug\net8.0\JiraProject.staticwebassets.runtime.json
+D:\Cuối kì QLCVHQ\ĐANG LÀM_QLHQCV\JiraProject\bin\Debug\net8.0\JiraProject.staticwebassets.endpoints.json
+D:\Cuối kì QLCVHQ\ĐANG LÀM_QLHQCV\JiraProject\bin\Debug\net8.0\JiraProject.exe
+D:\Cuối kì QLCVHQ\ĐANG LÀM_QLHQCV\JiraProject\bin\Debug\net8.0\wwwroot\index.html
+D:\Cuối kì QLCVHQ\ĐANG LÀM_QLHQCV\JiraProject\bin\Debug\net8.0\JiraProject.deps.json
+D:\Cuối kì QLCVHQ\ĐANG LÀM_QLHQCV\JiraProject\bin\Debug\net8.0\JiraProject.runtimeconfig.json
+D:\Cuối kì QLCVHQ\ĐANG LÀM_QLHQCV\JiraProject\bin\Debug\net8.0\JiraProject.dll
+D:\Cuối kì QLCVHQ\ĐANG LÀM_QLHQCV\JiraProject\bin\Debug\net8.0\JiraProject.pdb
+D:\Cuối kì QLCVHQ\ĐANG LÀM_QLHQCV\JiraProject\bin\Debug\net8.0\Humanizer.dll
+D:\Cuối kì QLCVHQ\ĐANG LÀM_QLHQCV\JiraProject\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Cuối kì QLCVHQ\ĐANG LÀM_QLHQCV\JiraProject\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
+D:\Cuối kì QLCVHQ\ĐANG LÀM_QLHQCV\JiraProject\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
+D:\Cuối kì QLCVHQ\ĐANG LÀM_QLHQCV\JiraProject\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+D:\Cuối kì QLCVHQ\ĐANG LÀM_QLHQCV\JiraProject\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.dll
+D:\Cuối kì QLCVHQ\ĐANG LÀM_QLHQCV\JiraProject\bin\Debug\net8.0\Microsoft.Data.Sqlite.dll
+D:\Cuối kì QLCVHQ\ĐANG LÀM_QLHQCV\JiraProject\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+D:\Cuối kì QLCVHQ\ĐANG LÀM_QLHQCV\JiraProject\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\Cuối kì QLCVHQ\ĐANG LÀM_QLHQCV\JiraProject\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\Cuối kì QLCVHQ\ĐANG LÀM_QLHQCV\JiraProject\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\Cuối kì QLCVHQ\ĐANG LÀM_QLHQCV\JiraProject\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Sqlite.dll
+D:\Cuối kì QLCVHQ\ĐANG LÀM_QLHQCV\JiraProject\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+D:\Cuối kì QLCVHQ\ĐANG LÀM_QLHQCV\JiraProject\bin\Debug\net8.0\Microsoft.OpenApi.dll
+D:\Cuối kì QLCVHQ\ĐANG LÀM_QLHQCV\JiraProject\bin\Debug\net8.0\Mono.TextTemplating.dll
+D:\Cuối kì QLCVHQ\ĐANG LÀM_QLHQCV\JiraProject\bin\Debug\net8.0\SQLitePCLRaw.batteries_v2.dll
+D:\Cuối kì QLCVHQ\ĐANG LÀM_QLHQCV\JiraProject\bin\Debug\net8.0\SQLitePCLRaw.core.dll
+D:\Cuối kì QLCVHQ\ĐANG LÀM_QLHQCV\JiraProject\bin\Debug\net8.0\SQLitePCLRaw.provider.e_sqlite3.dll
+D:\Cuối kì QLCVHQ\ĐANG LÀM_QLHQCV\JiraProject\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\Cuối kì QLCVHQ\ĐANG LÀM_QLHQCV\JiraProject\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\Cuối kì QLCVHQ\ĐANG LÀM_QLHQCV\JiraProject\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\Cuối kì QLCVHQ\ĐANG LÀM_QLHQCV\JiraProject\bin\Debug\net8.0\System.CodeDom.dll
+D:\Cuối kì QLCVHQ\ĐANG LÀM_QLHQCV\JiraProject\bin\Debug\net8.0\System.Composition.AttributedModel.dll
+D:\Cuối kì QLCVHQ\ĐANG LÀM_QLHQCV\JiraProject\bin\Debug\net8.0\System.Composition.Convention.dll
+D:\Cuối kì QLCVHQ\ĐANG LÀM_QLHQCV\JiraProject\bin\Debug\net8.0\System.Composition.Hosting.dll
+D:\Cuối kì QLCVHQ\ĐANG LÀM_QLHQCV\JiraProject\bin\Debug\net8.0\System.Composition.Runtime.dll
+D:\Cuối kì QLCVHQ\ĐANG LÀM_QLHQCV\JiraProject\bin\Debug\net8.0\System.Composition.TypedParts.dll
+D:\Cuối kì QLCVHQ\ĐANG LÀM_QLHQCV\JiraProject\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.resources.dll
+D:\Cuối kì QLCVHQ\ĐANG LÀM_QLHQCV\JiraProject\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.resources.dll
+D:\Cuối kì QLCVHQ\ĐANG LÀM_QLHQCV\JiraProject\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.resources.dll
+D:\Cuối kì QLCVHQ\ĐANG LÀM_QLHQCV\JiraProject\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.resources.dll
+D:\Cuối kì QLCVHQ\ĐANG LÀM_QLHQCV\JiraProject\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.resources.dll
+D:\Cuối kì QLCVHQ\ĐANG LÀM_QLHQCV\JiraProject\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.resources.dll
+D:\Cuối kì QLCVHQ\ĐANG LÀM_QLHQCV\JiraProject\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.resources.dll
+D:\Cuối kì QLCVHQ\ĐANG LÀM_QLHQCV\JiraProject\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.resources.dll
+D:\Cuối kì QLCVHQ\ĐANG LÀM_QLHQCV\JiraProject\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+D:\Cuối kì QLCVHQ\ĐANG LÀM_QLHQCV\JiraProject\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.resources.dll
+D:\Cuối kì QLCVHQ\ĐANG LÀM_QLHQCV\JiraProject\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.resources.dll
+D:\Cuối kì QLCVHQ\ĐANG LÀM_QLHQCV\JiraProject\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+D:\Cuối kì QLCVHQ\ĐANG LÀM_QLHQCV\JiraProject\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+D:\Cuối kì QLCVHQ\ĐANG LÀM_QLHQCV\JiraProject\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Cuối kì QLCVHQ\ĐANG LÀM_QLHQCV\JiraProject\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Cuối kì QLCVHQ\ĐANG LÀM_QLHQCV\JiraProject\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Cuối kì QLCVHQ\ĐANG LÀM_QLHQCV\JiraProject\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Cuối kì QLCVHQ\ĐANG LÀM_QLHQCV\JiraProject\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Cuối kì QLCVHQ\ĐANG LÀM_QLHQCV\JiraProject\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Cuối kì QLCVHQ\ĐANG LÀM_QLHQCV\JiraProject\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Cuối kì QLCVHQ\ĐANG LÀM_QLHQCV\JiraProject\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Cuối kì QLCVHQ\ĐANG LÀM_QLHQCV\JiraProject\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Cuối kì QLCVHQ\ĐANG LÀM_QLHQCV\JiraProject\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Cuối kì QLCVHQ\ĐANG LÀM_QLHQCV\JiraProject\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Cuối kì QLCVHQ\ĐANG LÀM_QLHQCV\JiraProject\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Cuối kì QLCVHQ\ĐANG LÀM_QLHQCV\JiraProject\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Cuối kì QLCVHQ\ĐANG LÀM_QLHQCV\JiraProject\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Cuối kì QLCVHQ\ĐANG LÀM_QLHQCV\JiraProject\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Cuối kì QLCVHQ\ĐANG LÀM_QLHQCV\JiraProject\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Cuối kì QLCVHQ\ĐANG LÀM_QLHQCV\JiraProject\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Cuối kì QLCVHQ\ĐANG LÀM_QLHQCV\JiraProject\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Cuối kì QLCVHQ\ĐANG LÀM_QLHQCV\JiraProject\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Cuối kì QLCVHQ\ĐANG LÀM_QLHQCV\JiraProject\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Cuối kì QLCVHQ\ĐANG LÀM_QLHQCV\JiraProject\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Cuối kì QLCVHQ\ĐANG LÀM_QLHQCV\JiraProject\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Cuối kì QLCVHQ\ĐANG LÀM_QLHQCV\JiraProject\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Cuối kì QLCVHQ\ĐANG LÀM_QLHQCV\JiraProject\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Cuối kì QLCVHQ\ĐANG LÀM_QLHQCV\JiraProject\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Cuối kì QLCVHQ\ĐANG LÀM_QLHQCV\JiraProject\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Cuối kì QLCVHQ\ĐANG LÀM_QLHQCV\JiraProject\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Cuối kì QLCVHQ\ĐANG LÀM_QLHQCV\JiraProject\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Cuối kì QLCVHQ\ĐANG LÀM_QLHQCV\JiraProject\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Cuối kì QLCVHQ\ĐANG LÀM_QLHQCV\JiraProject\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Cuối kì QLCVHQ\ĐANG LÀM_QLHQCV\JiraProject\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Cuối kì QLCVHQ\ĐANG LÀM_QLHQCV\JiraProject\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Cuối kì QLCVHQ\ĐANG LÀM_QLHQCV\JiraProject\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Cuối kì QLCVHQ\ĐANG LÀM_QLHQCV\JiraProject\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Cuối kì QLCVHQ\ĐANG LÀM_QLHQCV\JiraProject\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Cuối kì QLCVHQ\ĐANG LÀM_QLHQCV\JiraProject\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Cuối kì QLCVHQ\ĐANG LÀM_QLHQCV\JiraProject\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Cuối kì QLCVHQ\ĐANG LÀM_QLHQCV\JiraProject\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Cuối kì QLCVHQ\ĐANG LÀM_QLHQCV\JiraProject\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Cuối kì QLCVHQ\ĐANG LÀM_QLHQCV\JiraProject\bin\Debug\net8.0\runtimes\browser-wasm\nativeassets\net8.0\e_sqlite3.a
+D:\Cuối kì QLCVHQ\ĐANG LÀM_QLHQCV\JiraProject\bin\Debug\net8.0\runtimes\linux-arm\native\libe_sqlite3.so
+D:\Cuối kì QLCVHQ\ĐANG LÀM_QLHQCV\JiraProject\bin\Debug\net8.0\runtimes\linux-arm64\native\libe_sqlite3.so
+D:\Cuối kì QLCVHQ\ĐANG LÀM_QLHQCV\JiraProject\bin\Debug\net8.0\runtimes\linux-armel\native\libe_sqlite3.so
+D:\Cuối kì QLCVHQ\ĐANG LÀM_QLHQCV\JiraProject\bin\Debug\net8.0\runtimes\linux-mips64\native\libe_sqlite3.so
+D:\Cuối kì QLCVHQ\ĐANG LÀM_QLHQCV\JiraProject\bin\Debug\net8.0\runtimes\linux-musl-arm\native\libe_sqlite3.so
+D:\Cuối kì QLCVHQ\ĐANG LÀM_QLHQCV\JiraProject\bin\Debug\net8.0\runtimes\linux-musl-arm64\native\libe_sqlite3.so
+D:\Cuối kì QLCVHQ\ĐANG LÀM_QLHQCV\JiraProject\bin\Debug\net8.0\runtimes\linux-musl-x64\native\libe_sqlite3.so
+D:\Cuối kì QLCVHQ\ĐANG LÀM_QLHQCV\JiraProject\bin\Debug\net8.0\runtimes\linux-ppc64le\native\libe_sqlite3.so
+D:\Cuối kì QLCVHQ\ĐANG LÀM_QLHQCV\JiraProject\bin\Debug\net8.0\runtimes\linux-s390x\native\libe_sqlite3.so
+D:\Cuối kì QLCVHQ\ĐANG LÀM_QLHQCV\JiraProject\bin\Debug\net8.0\runtimes\linux-x64\native\libe_sqlite3.so
+D:\Cuối kì QLCVHQ\ĐANG LÀM_QLHQCV\JiraProject\bin\Debug\net8.0\runtimes\linux-x86\native\libe_sqlite3.so
+D:\Cuối kì QLCVHQ\ĐANG LÀM_QLHQCV\JiraProject\bin\Debug\net8.0\runtimes\maccatalyst-arm64\native\libe_sqlite3.dylib
+D:\Cuối kì QLCVHQ\ĐANG LÀM_QLHQCV\JiraProject\bin\Debug\net8.0\runtimes\maccatalyst-x64\native\libe_sqlite3.dylib
+D:\Cuối kì QLCVHQ\ĐANG LÀM_QLHQCV\JiraProject\bin\Debug\net8.0\runtimes\osx-arm64\native\libe_sqlite3.dylib
+D:\Cuối kì QLCVHQ\ĐANG LÀM_QLHQCV\JiraProject\bin\Debug\net8.0\runtimes\osx-x64\native\libe_sqlite3.dylib
+D:\Cuối kì QLCVHQ\ĐANG LÀM_QLHQCV\JiraProject\bin\Debug\net8.0\runtimes\win-arm\native\e_sqlite3.dll
+D:\Cuối kì QLCVHQ\ĐANG LÀM_QLHQCV\JiraProject\bin\Debug\net8.0\runtimes\win-arm64\native\e_sqlite3.dll
+D:\Cuối kì QLCVHQ\ĐANG LÀM_QLHQCV\JiraProject\bin\Debug\net8.0\runtimes\win-x64\native\e_sqlite3.dll
+D:\Cuối kì QLCVHQ\ĐANG LÀM_QLHQCV\JiraProject\bin\Debug\net8.0\runtimes\win-x86\native\e_sqlite3.dll
+D:\Cuối kì QLCVHQ\ĐANG LÀM_QLHQCV\JiraProject\obj\Debug\net8.0\JiraProject.csproj.AssemblyReference.cache
+D:\Cuối kì QLCVHQ\ĐANG LÀM_QLHQCV\JiraProject\obj\Debug\net8.0\rpswa.dswa.cache.json
+D:\Cuối kì QLCVHQ\ĐANG LÀM_QLHQCV\JiraProject\obj\Debug\net8.0\JiraProject.GeneratedMSBuildEditorConfig.editorconfig
+D:\Cuối kì QLCVHQ\ĐANG LÀM_QLHQCV\JiraProject\obj\Debug\net8.0\JiraProject.AssemblyInfoInputs.cache
+D:\Cuối kì QLCVHQ\ĐANG LÀM_QLHQCV\JiraProject\obj\Debug\net8.0\JiraProject.AssemblyInfo.cs
+D:\Cuối kì QLCVHQ\ĐANG LÀM_QLHQCV\JiraProject\obj\Debug\net8.0\JiraProject.csproj.CoreCompileInputs.cache
+D:\Cuối kì QLCVHQ\ĐANG LÀM_QLHQCV\JiraProject\obj\Debug\net8.0\JiraProject.MvcApplicationPartsAssemblyInfo.cs
+D:\Cuối kì QLCVHQ\ĐANG LÀM_QLHQCV\JiraProject\obj\Debug\net8.0\JiraProject.MvcApplicationPartsAssemblyInfo.cache
+D:\Cuối kì QLCVHQ\ĐANG LÀM_QLHQCV\JiraProject\obj\Debug\net8.0\rjimswa.dswa.cache.json
+D:\Cuối kì QLCVHQ\ĐANG LÀM_QLHQCV\JiraProject\obj\Debug\net8.0\rjsmrazor.dswa.cache.json
+D:\Cuối kì QLCVHQ\ĐANG LÀM_QLHQCV\JiraProject\obj\Debug\net8.0\rjsmcshtml.dswa.cache.json
+D:\Cuối kì QLCVHQ\ĐANG LÀM_QLHQCV\JiraProject\obj\Debug\net8.0\scopedcss\bundle\JiraProject.styles.css
+D:\Cuối kì QLCVHQ\ĐANG LÀM_QLHQCV\JiraProject\obj\Debug\net8.0\staticwebassets.build.json
+D:\Cuối kì QLCVHQ\ĐANG LÀM_QLHQCV\JiraProject\obj\Debug\net8.0\staticwebassets.build.json.cache
+D:\Cuối kì QLCVHQ\ĐANG LÀM_QLHQCV\JiraProject\obj\Debug\net8.0\staticwebassets.development.json
+D:\Cuối kì QLCVHQ\ĐANG LÀM_QLHQCV\JiraProject\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+D:\Cuối kì QLCVHQ\ĐANG LÀM_QLHQCV\JiraProject\obj\Debug\net8.0\swae.build.ex.cache
+D:\Cuối kì QLCVHQ\ĐANG LÀM_QLHQCV\JiraProject\obj\Debug\net8.0\JiraProj.BABBF7DD.Up2Date
+D:\Cuối kì QLCVHQ\ĐANG LÀM_QLHQCV\JiraProject\obj\Debug\net8.0\JiraProject.dll
+D:\Cuối kì QLCVHQ\ĐANG LÀM_QLHQCV\JiraProject\obj\Debug\net8.0\refint\JiraProject.dll
+D:\Cuối kì QLCVHQ\ĐANG LÀM_QLHQCV\JiraProject\obj\Debug\net8.0\JiraProject.pdb
+D:\Cuối kì QLCVHQ\ĐANG LÀM_QLHQCV\JiraProject\obj\Debug\net8.0\JiraProject.genruntimeconfig.cache
+D:\Cuối kì QLCVHQ\ĐANG LÀM_QLHQCV\JiraProject\obj\Debug\net8.0\ref\JiraProject.dll
+D:\A1-Github\JiraProject\bin\Debug\net8.0\appsettings.Development.json
+D:\A1-Github\JiraProject\bin\Debug\net8.0\appsettings.json
+D:\A1-Github\JiraProject\bin\Debug\net8.0\JiraProject.staticwebassets.endpoints.json
+D:\A1-Github\JiraProject\bin\Debug\net8.0\JiraProject.staticwebassets.runtime.json
+D:\A1-Github\JiraProject\bin\Debug\net8.0\JiraProject.exe
+D:\A1-Github\JiraProject\bin\Debug\net8.0\wwwroot\index.html
+D:\A1-Github\JiraProject\bin\Debug\net8.0\JiraProject.deps.json
+D:\A1-Github\JiraProject\bin\Debug\net8.0\JiraProject.runtimeconfig.json
+D:\A1-Github\JiraProject\bin\Debug\net8.0\JiraProject.dll
+D:\A1-Github\JiraProject\bin\Debug\net8.0\JiraProject.pdb
+D:\A1-Github\JiraProject\bin\Debug\net8.0\Humanizer.dll
+D:\A1-Github\JiraProject\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\A1-Github\JiraProject\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
+D:\A1-Github\JiraProject\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
+D:\A1-Github\JiraProject\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+D:\A1-Github\JiraProject\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.dll
+D:\A1-Github\JiraProject\bin\Debug\net8.0\Microsoft.Data.Sqlite.dll
+D:\A1-Github\JiraProject\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+D:\A1-Github\JiraProject\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\A1-Github\JiraProject\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\A1-Github\JiraProject\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\A1-Github\JiraProject\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Sqlite.dll
+D:\A1-Github\JiraProject\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+D:\A1-Github\JiraProject\bin\Debug\net8.0\Microsoft.OpenApi.dll
+D:\A1-Github\JiraProject\bin\Debug\net8.0\Mono.TextTemplating.dll
+D:\A1-Github\JiraProject\bin\Debug\net8.0\SQLitePCLRaw.batteries_v2.dll
+D:\A1-Github\JiraProject\bin\Debug\net8.0\SQLitePCLRaw.core.dll
+D:\A1-Github\JiraProject\bin\Debug\net8.0\SQLitePCLRaw.provider.e_sqlite3.dll
+D:\A1-Github\JiraProject\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\A1-Github\JiraProject\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\A1-Github\JiraProject\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\A1-Github\JiraProject\bin\Debug\net8.0\System.CodeDom.dll
+D:\A1-Github\JiraProject\bin\Debug\net8.0\System.Composition.AttributedModel.dll
+D:\A1-Github\JiraProject\bin\Debug\net8.0\System.Composition.Convention.dll
+D:\A1-Github\JiraProject\bin\Debug\net8.0\System.Composition.Hosting.dll
+D:\A1-Github\JiraProject\bin\Debug\net8.0\System.Composition.Runtime.dll
+D:\A1-Github\JiraProject\bin\Debug\net8.0\System.Composition.TypedParts.dll
+D:\A1-Github\JiraProject\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.resources.dll
+D:\A1-Github\JiraProject\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.resources.dll
+D:\A1-Github\JiraProject\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.resources.dll
+D:\A1-Github\JiraProject\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.resources.dll
+D:\A1-Github\JiraProject\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.resources.dll
+D:\A1-Github\JiraProject\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.resources.dll
+D:\A1-Github\JiraProject\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.resources.dll
+D:\A1-Github\JiraProject\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.resources.dll
+D:\A1-Github\JiraProject\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+D:\A1-Github\JiraProject\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.resources.dll
+D:\A1-Github\JiraProject\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.resources.dll
+D:\A1-Github\JiraProject\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+D:\A1-Github\JiraProject\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+D:\A1-Github\JiraProject\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\A1-Github\JiraProject\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\A1-Github\JiraProject\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\A1-Github\JiraProject\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\A1-Github\JiraProject\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\A1-Github\JiraProject\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\A1-Github\JiraProject\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\A1-Github\JiraProject\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\A1-Github\JiraProject\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\A1-Github\JiraProject\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\A1-Github\JiraProject\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\A1-Github\JiraProject\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\A1-Github\JiraProject\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\A1-Github\JiraProject\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\A1-Github\JiraProject\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\A1-Github\JiraProject\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\A1-Github\JiraProject\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\A1-Github\JiraProject\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\A1-Github\JiraProject\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\A1-Github\JiraProject\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\A1-Github\JiraProject\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\A1-Github\JiraProject\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\A1-Github\JiraProject\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\A1-Github\JiraProject\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\A1-Github\JiraProject\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\A1-Github\JiraProject\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\A1-Github\JiraProject\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\A1-Github\JiraProject\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\A1-Github\JiraProject\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\A1-Github\JiraProject\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\A1-Github\JiraProject\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\A1-Github\JiraProject\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\A1-Github\JiraProject\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\A1-Github\JiraProject\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\A1-Github\JiraProject\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\A1-Github\JiraProject\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\A1-Github\JiraProject\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\A1-Github\JiraProject\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\A1-Github\JiraProject\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\A1-Github\JiraProject\bin\Debug\net8.0\runtimes\browser-wasm\nativeassets\net8.0\e_sqlite3.a
+D:\A1-Github\JiraProject\bin\Debug\net8.0\runtimes\linux-arm\native\libe_sqlite3.so
+D:\A1-Github\JiraProject\bin\Debug\net8.0\runtimes\linux-arm64\native\libe_sqlite3.so
+D:\A1-Github\JiraProject\bin\Debug\net8.0\runtimes\linux-armel\native\libe_sqlite3.so
+D:\A1-Github\JiraProject\bin\Debug\net8.0\runtimes\linux-mips64\native\libe_sqlite3.so
+D:\A1-Github\JiraProject\bin\Debug\net8.0\runtimes\linux-musl-arm\native\libe_sqlite3.so
+D:\A1-Github\JiraProject\bin\Debug\net8.0\runtimes\linux-musl-arm64\native\libe_sqlite3.so
+D:\A1-Github\JiraProject\bin\Debug\net8.0\runtimes\linux-musl-x64\native\libe_sqlite3.so
+D:\A1-Github\JiraProject\bin\Debug\net8.0\runtimes\linux-ppc64le\native\libe_sqlite3.so
+D:\A1-Github\JiraProject\bin\Debug\net8.0\runtimes\linux-s390x\native\libe_sqlite3.so
+D:\A1-Github\JiraProject\bin\Debug\net8.0\runtimes\linux-x64\native\libe_sqlite3.so
+D:\A1-Github\JiraProject\bin\Debug\net8.0\runtimes\linux-x86\native\libe_sqlite3.so
+D:\A1-Github\JiraProject\bin\Debug\net8.0\runtimes\maccatalyst-arm64\native\libe_sqlite3.dylib
+D:\A1-Github\JiraProject\bin\Debug\net8.0\runtimes\maccatalyst-x64\native\libe_sqlite3.dylib
+D:\A1-Github\JiraProject\bin\Debug\net8.0\runtimes\osx-arm64\native\libe_sqlite3.dylib
+D:\A1-Github\JiraProject\bin\Debug\net8.0\runtimes\osx-x64\native\libe_sqlite3.dylib
+D:\A1-Github\JiraProject\bin\Debug\net8.0\runtimes\win-arm\native\e_sqlite3.dll
+D:\A1-Github\JiraProject\bin\Debug\net8.0\runtimes\win-arm64\native\e_sqlite3.dll
+D:\A1-Github\JiraProject\bin\Debug\net8.0\runtimes\win-x64\native\e_sqlite3.dll
+D:\A1-Github\JiraProject\bin\Debug\net8.0\runtimes\win-x86\native\e_sqlite3.dll
+D:\A1-Github\JiraProject\obj\Debug\net8.0\JiraProject.csproj.AssemblyReference.cache
+D:\A1-Github\JiraProject\obj\Debug\net8.0\rpswa.dswa.cache.json
+D:\A1-Github\JiraProject\obj\Debug\net8.0\JiraProject.GeneratedMSBuildEditorConfig.editorconfig
+D:\A1-Github\JiraProject\obj\Debug\net8.0\JiraProject.AssemblyInfoInputs.cache
+D:\A1-Github\JiraProject\obj\Debug\net8.0\JiraProject.AssemblyInfo.cs
+D:\A1-Github\JiraProject\obj\Debug\net8.0\JiraProject.csproj.CoreCompileInputs.cache
+D:\A1-Github\JiraProject\obj\Debug\net8.0\JiraProject.MvcApplicationPartsAssemblyInfo.cs
+D:\A1-Github\JiraProject\obj\Debug\net8.0\JiraProject.MvcApplicationPartsAssemblyInfo.cache
+D:\A1-Github\JiraProject\obj\Debug\net8.0\JiraProject.sourcelink.json
+D:\A1-Github\JiraProject\obj\Debug\net8.0\rjimswa.dswa.cache.json
+D:\A1-Github\JiraProject\obj\Debug\net8.0\rjsmrazor.dswa.cache.json
+D:\A1-Github\JiraProject\obj\Debug\net8.0\rjsmcshtml.dswa.cache.json
+D:\A1-Github\JiraProject\obj\Debug\net8.0\scopedcss\bundle\JiraProject.styles.css
+D:\A1-Github\JiraProject\obj\Debug\net8.0\staticwebassets.build.json
+D:\A1-Github\JiraProject\obj\Debug\net8.0\staticwebassets.build.json.cache
+D:\A1-Github\JiraProject\obj\Debug\net8.0\staticwebassets.development.json
+D:\A1-Github\JiraProject\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+D:\A1-Github\JiraProject\obj\Debug\net8.0\swae.build.ex.cache
+D:\A1-Github\JiraProject\obj\Debug\net8.0\JiraProj.BABBF7DD.Up2Date
+D:\A1-Github\JiraProject\obj\Debug\net8.0\JiraProject.dll
+D:\A1-Github\JiraProject\obj\Debug\net8.0\refint\JiraProject.dll
+D:\A1-Github\JiraProject\obj\Debug\net8.0\JiraProject.pdb
+D:\A1-Github\JiraProject\obj\Debug\net8.0\JiraProject.genruntimeconfig.cache
+D:\A1-Github\JiraProject\obj\Debug\net8.0\ref\JiraProject.dll

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>📄 Chi tiết kỳ thi</title>
+    <style>
+        body { font-family: system-ui, sans-serif; padding: 2rem; background: #f1f5f9; color: #1e293b; display: flex; justify-content: center; }
+        .card { background: white; padding: 2.5rem; border-radius: 24px; box-shadow: 0 10px 25px -5px rgba(0,0,0,0.1); max-width: 450px; width: 100%; border-top: 8px solid #10b981; }
+        h2 { color: #0f172a; margin-top: 0; font-size: 1.8rem; margin-bottom: 1.5rem; }
+        .info-group { margin-bottom: 1rem; padding-bottom: 0.5rem; border-bottom: 1px dashed #e2e8f0; }
+        .label { color: #64748b; font-weight: 500; font-size: 0.9rem; text-transform: uppercase; margin-bottom: 0.2rem; display: block; }
+        .value { color: #0f172a; font-size: 1.2rem; font-weight: 600; }
+        .back-btn { display: inline-block; margin-top: 1.5rem; text-decoration: none; color: #3b82f6; font-weight: 600; transition: 0.2s; }
+        .back-btn:hover { color: #2563eb; transform: translateX(-5px); }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <h2>📄 Chi tiết kỳ thi</h2>
+        <div id="content">
+            <p>⏳ Đang tải dữ liệu...</p>
+        </div>
+        <a href="taokỵthi.html" class="back-btn">⬅ Quay lại danh sách</a>
+    </div>
+
+    <script>
+        const params = new URLSearchParams(window.location.search);
+        const id = params.get("id");
+
+        if (!id) {
+            document.getElementById("content").innerHTML = "❌ Lỗi: Không tìm thấy ID kỳ thi!";
+        } else {
+            fetch(`/api/exam/${id}`)
+                .then(res => {
+                    if (!res.ok) throw new Error();
+                    return res.json();
+                })
+                .then(exam => {
+                    const dt = new Date(exam.ngayThi);
+                    const date = dt.toLocaleDateString('vi-VN');
+                    const time = dt.toLocaleTimeString('vi-VN', {hour: '2-digit', minute:'2-digit'});
+
+                    document.getElementById("content").innerHTML = `
+                        <div class="info-group">
+                            <span class="label">Tên môn học</span>
+                            <div class="value">${exam.tenKyThi}</div>
+                        </div>
+                        <div class="info-group">
+                            <span class="label">Ngày thi</span>
+                            <div class="value">📅 ${date}</div>
+                        </div>
+                        <div class="info-group">
+                            <span class="label">Giờ thi</span>
+                            <div class="value">⏰ ${time}</div>
+                        </div>
+                        <div class="info-group">
+                            <span class="label">Phòng thi</span>
+                            <div class="value">🏠 ${exam.phongThi || 'Chưa xếp'}</div>
+                        </div>
+                        <div class="info-group">
+                            <span class="label">Trạng thái</span>
+                            <div class="value" style="color:#10b981">${exam.trangThai}</div>
+                        </div>
+                    `;
+                })
+                .catch(() => {
+                    document.getElementById("content").innerHTML = "❌ Không thể tải thông tin kỳ thi.";
+                });
+        }
+    </script>
+</body>
+</html>

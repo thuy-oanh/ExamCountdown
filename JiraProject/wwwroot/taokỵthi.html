@@ -1,0 +1,561 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <title>Hệ thống quản lý lịch thi</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; font-family: system-ui, 'Segoe UI', sans-serif; }
+        body { background: #f1f5f9; padding: 2rem 1.5rem; min-height: 100vh; }
+        .container { max-width: 1280px; margin: 0 auto; }
+
+        /* HEADER & ICONS */
+        .header { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 1rem; margin-bottom: 2rem; }
+        h1 { font-size: 1.8rem; font-weight: 700; color: #0f172a; letter-spacing: -0.3px; display: flex; align-items: center; gap: 10px; }
+        .icon-btn { cursor: pointer; font-size: 1.5rem; transition: transform 0.2s; background: #fff; padding: 8px; border-radius: 50%; box-shadow: 0 2px 5px rgba(0,0,0,0.1); border: none; display: inline-flex; align-items: center; justify-content: center; }
+        .icon-btn:hover { transform: scale(1.1) rotate(10deg); color: #3b82f6; }
+        .icon-rac:hover { color: #e11d48; }
+
+        /* BADGE MÀU SẮC */
+        .badge { padding: 4px 12px; border-radius: 8px; color: white; font-size: 11px; font-weight: 700; text-transform: uppercase; margin-left: 8px; }
+
+        /* BUTTONS */
+        .btn-primary { background: #3b82f6; border: none; padding: 0.75rem 1.6rem; border-radius: 40px; font-weight: 600; color: white; cursor: pointer; transition: 0.2s; display: inline-flex; align-items: center; gap: 0.5rem; }
+        .btn-primary:hover { background: #2563eb; transform: translateY(-1px); }
+        .btn-secondary { background: #e2e8f0; color: #1e293b; border: none; padding: 0.6rem 1.2rem; border-radius: 40px; font-weight: 500; cursor: pointer; }
+
+        /* MODALS */
+        .modal { display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0, 0, 0, 0.5); backdrop-filter: blur(4px); align-items: center; justify-content: center; z-index: 1000; padding: 1rem; }
+        .modal.active { display: flex; }
+        .form-card { background: white; max-width: 500px; width: 100%; border-radius: 28px; padding: 2rem; box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25); animation: zoomIn 0.2s ease-out; }
+        @keyframes zoomIn { from { opacity: 0; transform: scale(0.95); } to { opacity: 1; transform: scale(1); } }
+
+        /* DANH SÁCH & CARDS */
+        .exam-list { background: white; border-radius: 28px; padding: 1.5rem; border: 1px solid #e2e8f0; }
+        .exam-card { background: #f8fafc; border-radius: 20px; padding: 1rem 1.2rem; display: flex; align-items: center; justify-content: space-between; margin-bottom: 0.75rem; border: 1px solid #e2e8f0; transition: 0.2s;}
+        .exam-info { display: flex; flex-wrap: wrap; gap: 1rem; align-items: center; flex: 1; }
+        .exam-subject { font-weight: 700; background: white; padding: 0.2rem 0.9rem; border-radius: 40px; border: 1px solid #cbd5e1; }
+        .action-buttons { display: flex; gap: 8px; align-items: center; }
+        
+        .action-buttons a, .action-buttons button { 
+            text-decoration: none; border: none; padding: 0.4rem 0.8rem; border-radius: 20px; font-size: 0.85rem; font-weight: 600; cursor: pointer; 
+        }
+
+        /* --- CSS MỚI: CẢNH BÁO 24H --- */
+        .exam-card.highlight-warning {
+            border-left: 5px solid #ef4444; 
+            background-color: #fef2f2; 
+            border-top: 1px solid #fca5a5;
+            border-right: 1px solid #fca5a5;
+            border-bottom: 1px solid #fca5a5;
+        }
+        .warning-icon {
+            color: #dc2626;
+            font-weight: bold;
+            margin-right: 4px;
+        }
+        /* -------------------------------- */
+
+        /* THÙNG RÁC CSS */
+        #dsRac { max-height: 300px; overflow-y: auto; margin: 15px 0; }
+        .rac-item { display: flex; justify-content: space-between; align-items: center; padding: 10px; border-bottom: 1px solid #eee; font-size: 0.9rem; }
+
+        .toast { position: fixed; bottom: 28px; left: 50%; transform: translateX(-50%); color: white; padding: 0.75rem 1.6rem; border-radius: 60px; opacity: 0; transition: 0.3s; z-index: 1100; background: #1e293b; pointer-events: none; }
+        .toast.show { opacity: 1; }
+        
+        select { width: 100%; padding: 0.8rem; border-radius: 15px; border: 1px solid #cbd5e1; margin-top: 5px; background: white; }
+
+        /* BANNER CẢNH BÁO THI */
+        .alert-banner { position: fixed; top: 20px; right: 20px; background: #fffbeb; border-left: 5px solid #f59e0b; padding: 15px 20px; border-radius: 8px; box-shadow: 0 10px 25px rgba(0,0,0,0.1); z-index: 2000; animation: slideInRight 0.4s cubic-bezier(0.16, 1, 0.3, 1); min-width: 280px; max-width: 350px; }
+        @keyframes slideInRight { from { transform: translateX(100%); opacity: 0; } to { transform: translateX(0); opacity: 1; } }
+
+        /* TOGGLE SWITCH CSS */
+        .switch { position: relative; display: inline-block; width: 44px; height: 24px; }
+        .switch input { opacity: 0; width: 0; height: 0; }
+        .slider { position: absolute; cursor: pointer; top: 0; left: 0; right: 0; bottom: 0; background-color: #ccc; transition: .4s; border-radius: 34px; }
+        .slider:before { position: absolute; content: ""; height: 18px; width: 18px; left: 3px; bottom: 3px; background-color: white; transition: .4s; border-radius: 50%; }
+        input:checked + .slider { background-color: #10b981; }
+        input:checked + .slider:before { transform: translateX(20px); }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <div class="header">
+        <h1>
+            📘 Lịch thi của tôi 
+            <button class="icon-btn icon-rac" title="Thùng rác" onclick="moThungRac()">🗑️</button>
+            <button class="icon-btn" title="Thông báo" onclick="moCaiDat()">🔔</button>
+        </h1>
+        <button class="btn-primary" id="openFormBtn">+ Thêm kỳ thi</button>
+    </div>
+
+    <div class="exam-list">
+        <div style="display:flex; justify-content:space-between; margin-bottom:1rem; border-bottom:2px solid #f1f5f9; padding-bottom:0.5rem;">
+            <h3>📅 Danh sách kỳ thi</h3>
+            <span id="examCount" style="background:#eef2ff; color:#1e40af; padding:2px 12px; border-radius:20px; font-size:0.8rem;">0</span>
+        </div>
+        <div id="examsContainer"></div>
+    </div>
+</div>
+
+<div class="modal" id="modalCaiDat">
+    <div class="form-card" style="max-width: 400px;">
+        <h3>🔔 Cài đặt thông báo</h3>
+        <p style="font-size: 0.85rem; color: #64748b; margin-bottom: 1.5rem;">Tùy chỉnh chức năng nhắc nhở lịch thi.</p>
+        
+        <div style="display: flex; justify-content: space-between; align-items: center; padding: 15px; background: #f8fafc; border-radius: 12px; border: 1px solid #e2e8f0;">
+            <div>
+                <strong style="display: block; color: #1e293b;">Cảnh báo sắp thi</strong>
+                <span style="font-size: 0.75rem; color: #64748b;">Hiển thị popup nhắc nhở môn thi sắp tới (≤ 24h)</span>
+            </div>
+            <label class="switch">
+                <input type="checkbox" id="toggleAlert">
+                <span class="slider"></span>
+            </label>
+        </div>
+
+        <div style="text-align: right; margin-top: 1.5rem;">
+            <button class="btn-secondary" onclick="dongCaiDat()">Đóng</button>
+        </div>
+    </div>
+</div>
+
+<div id="examModal" class="modal">
+    <div class="form-card">
+        <h2 id="modalTitle">✏️ Tạo kỳ thi mới</h2>
+        <form id="examForm" novalidate style="margin-top:1rem;">
+            <input type="hidden" id="editExamId">
+            <div style="margin-bottom:1rem;">
+                <label style="display:block; font-size:0.8rem; font-weight:600; color:#64748b;">TÊN MÔN HỌC *</label>
+                <input type="text" id="subject" style="width:100%; padding:0.8rem; border-radius:15px; border:1px solid #cbd5e1; margin-top:5px;">
+            </div>
+            
+            <div style="margin-bottom:1rem;">
+                <label style="display:block; font-size:0.8rem; font-weight:600; color:#64748b;">LOẠI KỲ THI</label>
+                <select id="loaiKyThi">
+                    <option value="">Chọn loại</option>
+                    <option>Giữa kỳ</option>
+                    <option>Cuối kỳ</option>
+                    <option>Quiz</option>
+                    <option>Tiểu luận</option>
+                    <option>Đồ án</option>
+                </select>
+            </div>
+
+            <div style="display:flex; gap:10px; margin-bottom:1rem;">
+                <div style="flex:1;">
+                    <label style="display:block; font-size:0.8rem; font-weight:600; color:#64748b;">NGÀY THI *</label>
+                    <input type="date" id="examDate" style="width:100%; padding:0.8rem; border-radius:15px; border:1px solid #cbd5e1; margin-top:5px;">
+                </div>
+                <div style="flex:1;">
+                    <label style="display:block; font-size:0.8rem; font-weight:600; color:#64748b;">GIỜ THI *</label>
+                    <input type="time" id="examTime" style="width:100%; padding:0.8rem; border-radius:15px; border:1px solid #cbd5e1; margin-top:5px;">
+                </div>
+            </div>
+            <div style="margin-bottom:1.5rem;">
+                <label style="display:block; font-size:0.8rem; font-weight:600; color:#64748b;">PHÒNG THI</label>
+                <input type="text" id="room" style="width:100%; padding:0.8rem; border-radius:15px; border:1px solid #cbd5e1; margin-top:5px;">
+            </div>
+            <div style="display:flex; justify-content:flex-end; gap:10px;">
+                <button type="button" class="btn-secondary" onclick="closeModal()">Hủy</button>
+                <button type="submit" class="btn-primary" style="background:#10b981;">💾 Lưu thông tin</button>
+            </div>
+        </form>
+    </div>
+</div>
+
+<div class="modal" id="modalXoa">
+    <div class="form-card" style="max-width:400px; text-align:center;">
+        <div style="font-size:3rem; margin-bottom:1rem;">⚠️</div>
+        <h3>Xác nhận xóa?</h3>
+        <p style="color:#64748b; margin-top:10px;">Kỳ thi này sẽ được chuyển vào thùng rác tạm thời.</p>
+        <div style="display:flex; justify-content:center; gap:10px; margin-top:2rem;">
+            <button class="btn-secondary" onclick="dongModalXoa()">Hủy</button>
+            <button class="btn-primary" style="background:#e11d48;" onclick="xacNhanXoa()">Xóa</button>
+        </div>
+    </div>
+</div>
+
+<div class="modal" id="modalRac">
+    <div class="form-card">
+        <h3>🗑️ Thùng rác tạm thời</h3>
+        <p style="font-size:0.8rem; color:#64748b;">Dữ liệu sẽ mất khi bạn tải lại trang (F5).</p>
+        <div id="dsRac"></div>
+        <div style="text-align:right; margin-top:1rem;">
+            <button class="btn-secondary" onclick="dongThungRac()">Đóng</button>
+        </div>
+    </div>
+</div>
+
+<div id="toastMsg" class="toast">✅ Thông báo</div>
+
+<script>
+    const API_BASE_URL = '/api/exam';
+    let exams = []; 
+    let thungRac = []; 
+    let currentDeleteId = null;
+    let hasCheckedAlert = false; 
+
+    const colors = {
+        "Giữa kỳ": "#3498db",
+        "Cuối kỳ": "#e74c3c",
+        "Quiz": "#2ecc71",
+        "Tiểu luận": "#9b59b6",
+        "Đồ án": "#f39c12",
+        "default": "#94a3b8"
+    };
+
+    function getColor(loai) { return colors[loai] || colors['default']; }
+
+    function showToast(message, isError = false) {
+        const t = document.getElementById('toastMsg');
+        t.textContent = message;
+        t.style.background = isError ? '#e11d48' : '#0f172a';
+        t.classList.add('show');
+        setTimeout(() => t.classList.remove('show'), 2500);
+    }
+
+    async function fetchExams() {
+        try {
+            const res = await fetch(API_BASE_URL);
+            exams = await res.json();
+            renderExamList();
+            kiemTraCanhBaoKyThi(); 
+        } catch (e) { showToast('❌ Lỗi kết nối server', true); }
+    }
+
+    // === HÀM HỖ TRỢ LẤY THỜI GIAN ĐỂ SẮP XẾP (Đẩy dữ liệu lỗi/null xuống cuối) ===
+    const getExamTimestamp = (exam) => {
+        const rawDate = exam.ngayThi;
+        if (!rawDate) return Infinity; // Không có ngày -> xuống cuối
+
+        const dateObj = new Date(rawDate);
+        return isNaN(dateObj.getTime()) ? Infinity : dateObj.getTime();
+    };
+
+    function getCountdown(ngayThi) {
+        if (!ngayThi) return "Không xác định";
+        
+        try {
+            const examDateTime = new Date(ngayThi);
+            if (isNaN(examDateTime.getTime())) return "Không xác định";
+
+            const now = new Date();
+            const diffMs = examDateTime - now;
+
+            // Nếu thời gian đã qua
+            if (diffMs < 0) return "Đã kết thúc"; 
+
+            const totalMinutes = Math.floor(diffMs / (1000 * 60));
+            
+            // Nếu còn dưới 1 giờ
+            if (totalMinutes < 60) {
+                return `Còn ${totalMinutes} phút`;
+            }
+
+            // Tính toán Ngày, Giờ và Phút
+            const totalHours = Math.floor(totalMinutes / 60);
+            const days = Math.floor(totalHours / 24);
+            const hours = totalHours % 24;
+            const minutes = totalMinutes % 60; // Lấy số phút lẻ còn lại
+
+            // Trả về chuỗi có đầy đủ Ngày, Giờ, Phút
+            if (days > 0) {
+                return `Còn ${days} ngày ${hours} giờ ${minutes} phút`;
+            } else {
+                // Nếu chỉ còn dưới 1 ngày (không có ngày)
+                return `Còn ${hours} giờ ${minutes} phút`;
+            }
+        } catch (e) {
+            return "Không xác định";
+        }
+    }
+
+    function renderExamList() {
+        const container = document.getElementById('examsContainer');
+        const count = document.getElementById('examCount');
+        if (exams.length === 0) {
+            container.innerHTML = '<div style="text-align:center; padding:2rem; color:#64748b;">📭 Chưa có kỳ thi nào</div>';
+            count.innerText = '0';
+            return;
+        }
+        count.innerText = exams.length;
+
+        // --- CẬP NHẬT LOGIC CẢNH BÁO VÀ SẮP XẾP TRÊN THẺ MÔN HỌC ---
+        const now = new Date();
+        const MS_IN_24H = 24 * 60 * 60 * 1000;
+
+        // Tạo mảng mới và Sắp xếp tự động (Stable Sort, ưu tiên ngày gần nhất)
+        const sortedExams = [...exams].sort((a, b) => getExamTimestamp(a) - getExamTimestamp(b));
+
+        container.innerHTML = sortedExams.map(exam => {
+            const dt = new Date(exam.ngayThi);
+            const diffMs = dt - now;
+            
+            // Logic: Còn trên 0ms và <= 24h
+            const isWarning = diffMs > 0 && diffMs <= MS_IN_24H;
+            
+            const cardClass = isWarning ? 'exam-card highlight-warning' : 'exam-card';
+            const warningIcon = isWarning ? '<span class="warning-icon" title="Sắp thi!">⚠️</span>' : '';
+            // ------------------------------------------------
+
+            const countdownText = getCountdown(exam.ngayThi);
+            const countdownHtml = countdownText ? `
+                <div style="flex-basis: 100%; color:#e11d48; font-weight:700; font-size:0.85rem; margin-top: 8px; margin-left: 5px;">
+                    ⏳ ${countdownText}
+                </div>
+            ` : '';
+
+            return `
+                <div class="${cardClass}">
+                    <div class="exam-info">
+                        <span class="exam-subject">📖 ${warningIcon}${exam.tenKyThi}</span>
+                        <span class="badge" style="background:${getColor(exam.loaiKyThi)}">${exam.loaiKyThi || 'Khác'}</span>
+                        <span style="font-size:0.85rem; color:#475569; margin-left: 10px;">📅 ${dt.toLocaleDateString('vi-VN')} ⏰ ${dt.getHours().toString().padStart(2,'0')}:${dt.getMinutes().toString().padStart(2,'0')}</span>
+                        <span style="background:#ffffff; border:1px solid #cbd5e1; padding:4px 12px; border-radius:20px; font-size:0.85rem; color:#334155; font-weight:500; margin-left:10px;">🏠 ${exam.phongThi || 'Chưa rõ'}</span>
+                        
+                        ${countdownHtml}
+                    </div>
+                    <div class="action-buttons">
+                        <a href="detail.html?id=${exam.id}" style="background:#dcfce7; color:#166534;">Xem</a>
+                        <button onclick="openEditModal(${exam.id})" style="background:#fef08a; color:#854d0e;">Chỉnh sửa</button>
+                        <button onclick="yeuCauXoa(${exam.id})" style="background:#fee2e2; color:#b91c1c;">Xóa</button>
+                    </div>
+                </div>`;
+        }).join('');
+    }
+
+    function moCaiDat() {
+        const isOff = localStorage.getItem("alertOff") === "true";
+        document.getElementById('toggleAlert').checked = !isOff; 
+        document.getElementById('modalCaiDat').classList.add('active');
+    }
+
+    function dongCaiDat() {
+        document.getElementById('modalCaiDat').classList.remove('active');
+    }
+
+    document.getElementById('toggleAlert').addEventListener('change', function(e) {
+        if(e.target.checked) {
+            localStorage.removeItem("alertOff"); 
+            showToast('✅ Đã bật Cảnh báo sắp thi');
+        } else {
+            localStorage.setItem("alertOff", "true"); 
+            showToast('🚫 Đã tắt Cảnh báo sắp thi');
+        }
+    });
+
+    function kiemTraCanhBaoKyThi() {
+        if (localStorage.getItem("alertOff") === "true") return;
+
+        const now = new Date();
+        let cacKyThiSapToi = [];
+
+        for (let i = 0; i < exams.length; i++) {
+            if (!exams[i].ngayThi) continue;
+
+            const examDate = new Date(exams[i].ngayThi);
+            const diffHours = (examDate - now) / (1000 * 60 * 60);
+
+            if (diffHours > 0 && diffHours <= 24) {
+                cacKyThiSapToi.push(exams[i]);
+            }
+        }
+
+        if (cacKyThiSapToi.length === 0) return;
+
+        let noiDungDanhSachHTML = '';
+        cacKyThiSapToi.forEach((ketQua, index) => {
+            const examDate = new Date(ketQua.ngayThi);
+            const diffMs = examDate - now;
+            
+            const hours = Math.floor(diffMs / (1000 * 60 * 60));
+            const remainMins = Math.floor((diffMs % (1000 * 60 * 60)) / (1000 * 60));
+
+            const styling = index !== cacKyThiSapToi.length - 1 
+                ? 'border-bottom: 1px dashed #cbd5e1; padding-bottom: 10px; margin-bottom: 10px;' 
+                : '';
+
+            noiDungDanhSachHTML += `
+                <div style="${styling}">
+                    Kỳ thi <b>${ketQua.tenKyThi}</b> sắp diễn ra.<br>
+                    <span style="color:#e11d48; font-weight:700;">Còn ${hours} giờ ${remainMins} phút</span>
+                </div>
+            `;
+        });
+
+        // Cập nhật lại UI Banner
+        const oldBanner = document.querySelector('.alert-banner');
+        if (oldBanner) oldBanner.remove();
+
+        const banner = document.createElement("div");
+        banner.className = "alert-banner";
+        banner.innerHTML = `
+            <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:10px;">
+                <span style="font-weight:700; color:#d97706; font-size:1.1rem;">⚠️ Cảnh báo sắp thi</span>
+                <button id="closeAlertBtn" style="background:none; border:none; font-size:1.4rem; cursor:pointer; color:#94a3b8; line-height:1;">&times;</button>
+            </div>
+            <div style="font-size:0.95rem; color:#334155; margin-bottom:15px; line-height:1.5; max-height:200px; overflow-y:auto; padding-right:5px;">
+                ${noiDungDanhSachHTML}
+            </div>
+            <div style="text-align:right;">
+                <button id="tatAlert" class="btn-secondary" style="padding:6px 14px; font-size:0.8rem;">Không hiện lại</button>
+            </div>
+        `;
+
+        document.body.appendChild(banner);
+
+        document.getElementById("closeAlertBtn").onclick = () => banner.remove();
+        
+        document.getElementById("tatAlert").onclick = function () {
+            localStorage.setItem("alertOff", "true");
+            banner.remove();
+            showToast('Đã tắt cảnh báo. Bạn có thể bật lại ở phần Thông báo 🔔');
+        };
+    }
+
+    function yeuCauXoa(id) {
+        currentDeleteId = id;
+        document.getElementById('modalXoa').classList.add('active');
+    }
+
+    function dongModalXoa() {
+        document.getElementById('modalXoa').classList.remove('active');
+        currentDeleteId = null;
+    }
+
+    async function xacNhanXoa() {
+        const exam = exams.find(e => e.id === currentDeleteId);
+        if (exam) {
+            const res = await fetch(`${API_BASE_URL}/${currentDeleteId}`, { method: 'DELETE' });
+            if (res.ok) {
+                thungRac.push(exam); 
+                showToast('🗑️ Đã xóa kỳ thi thành công');
+                dongModalXoa();
+                fetchExams();
+            }
+        }
+    }
+
+    function moThungRac() {
+        const box = document.getElementById('dsRac');
+        if (thungRac.length === 0) {
+            box.innerHTML = '<p style="text-align:center; padding:1rem; color:#94a3b8;">Thùng rác trống</p>';
+        } else {
+            box.innerHTML = thungRac.map((k, i) => `
+                <div class="rac-item">
+                    <span>${k.tenKyThi}</span>
+                    <button onclick="khoiPhuc(${i})" style="color:#3b82f6; border:none; background:none; cursor:pointer; font-weight:600;">Khôi phục</button>
+                </div>
+            `).join('');
+        }
+        document.getElementById('modalRac').classList.add('active');
+    }
+
+    function dongThungRac() { document.getElementById('modalRac').classList.remove('active'); }
+
+    async function khoiPhuc(index) {
+        const item = thungRac[index];
+        const res = await fetch(`${API_BASE_URL}/taomoi`, {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({
+                tenKyThi: item.tenKyThi,
+                loaiKyThi: item.loaiKyThi,
+                ngayThi: item.ngayThi,
+                phongThi: item.phongThi,
+                trangThai: "Chưa thi"
+            })
+        });
+        if (res.ok) {
+            thungRac.splice(index, 1);
+            showToast('✅ Đã khôi phục kỳ thi');
+            moThungRac();
+            fetchExams();
+        }
+    }
+
+    const modal = document.getElementById('examModal');
+    document.getElementById('openFormBtn').onclick = () => {
+        document.getElementById('examForm').reset();
+        document.getElementById('editExamId').value = '';
+        document.getElementById('modalTitle').innerText = '✏️ Tạo kỳ thi mới';
+        modal.classList.add('active');
+    };
+
+    function openEditModal(id) {
+        const e = exams.find(x => x.id === id);
+        const dt = new Date(e.ngayThi);
+        document.getElementById('editExamId').value = e.id;
+        document.getElementById('subject').value = e.tenKyThi;
+        document.getElementById('loaiKyThi').value = e.loaiKyThi || '';
+        document.getElementById('examDate').value = dt.toISOString().split('T')[0];
+        document.getElementById('examTime').value = dt.getHours().toString().padStart(2,'0') + ":" + dt.getMinutes().toString().padStart(2,'0');
+        document.getElementById('room').value = e.phongThi || '';
+        document.getElementById('modalTitle').innerText = '📝 Chỉnh sửa kỳ thi';
+        modal.classList.add('active');
+    }
+
+    document.getElementById('examForm').onsubmit = async (e) => {
+        e.preventDefault();
+        const id = document.getElementById('editExamId').value;
+        const payload = {
+            tenKyThi: document.getElementById('subject').value.trim(),
+            loaiKyThi: document.getElementById('loaiKyThi').value,
+            ngayThi: `${document.getElementById('examDate').value}T${document.getElementById('examTime').value}:00`,
+            phongThi: document.getElementById('room').value.trim(),
+            trangThai: "Chưa thi"
+        };
+        
+        if(!payload.tenKyThi || !document.getElementById('examDate').value || !document.getElementById('examTime').value) {
+            showToast('❌ Vui lòng nhập đủ Tên môn, Ngày và Giờ thi!', true);
+            return;
+        }
+
+        const url = id ? `${API_BASE_URL}/${id}` : `${API_BASE_URL}/taomoi`;
+        const method = id ? 'PUT' : 'POST';
+
+        try {
+            const res = await fetch(url, {
+                method: method,
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify(payload)
+            });
+            
+            if (res.ok) {
+                showToast(id ? '✅ Thông tin kỳ thi đã được cập nhật' : '✅ Đã thêm kỳ thi mới');
+                closeModal();
+                fetchExams();
+            } else {
+                const err = await res.json();
+                showToast('❌ ' + (err.message || 'Lỗi lưu dữ liệu. Có thể do chưa chạy lệnh Migration!'), true);
+            }
+        } catch (error) {
+            showToast('❌ Lỗi kết nối tới Server', true);
+        }
+    };
+
+    function closeModal() { modal.classList.remove('active'); }
+    
+    // =========================================================================
+    // XỬ LÝ LIFECYCLE EVENTS (Visibility Change & Focus)
+    // =========================================================================
+    document.addEventListener("visibilitychange", function() {
+        if (document.visibilityState === 'visible' && exams.length > 0) {
+            renderExamList(); // Render lại UI để số giờ tự động update
+            kiemTraCanhBaoKyThi();
+        }
+    });
+
+    window.addEventListener("focus", function() {
+        if (exams.length > 0) {
+            renderExamList();
+            kiemTraCanhBaoKyThi();
+        }
+    });
+
+    fetchExams(); 
+</script>
+</body>
+</html>

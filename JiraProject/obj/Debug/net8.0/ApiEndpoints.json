@@ -1,0 +1,12 @@
+[
+  {
+    "ContainingType": "ExamControllers",
+    "Method": "Get",
+    "RelativePath": "api/Exams",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]
