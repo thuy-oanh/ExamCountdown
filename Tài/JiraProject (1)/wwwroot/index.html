@@ -1,0 +1,125 @@
+﻿<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Exam Countdown</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: #f4f7f6;
+            display: flex;
+            justify-content: center;
+            padding: 40px;
+        }
+
+        .container {
+            width: 420px;
+            background: white;
+            padding: 25px;
+            border-radius: 12px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+
+        h2 {
+            text-align: center;
+            color: #2c3e50;
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 10px;
+        }
+
+        /* [CSS Fix]: Đảm bảo có thanh cuộn khi danh sách dài */
+        .exam-list {
+            margin-top: 20px;
+            max-height: 300px;
+            overflow-y: auto;
+            padding-right: 10px;
+        }
+
+        .exam-item {
+            padding: 15px;
+            border: 1px solid #eee;
+            border-radius: 8px;
+            margin-bottom: 10px;
+            background: #fff;
+            transition: transform 0.2s;
+        }
+
+            .exam-item:hover {
+                border-color: #3498db;
+            }
+
+            .exam-item b {
+                color: #3498db;
+                font-size: 1.1em;
+                display: block;
+                margin-bottom: 5px;
+            }
+
+            .exam-item small {
+                color: #7f8c8d;
+                line-height: 1.5;
+            }
+
+        /* [AC 2]: CSS cho thông báo rỗng */
+        .empty {
+            color: #e74c3c;
+            text-align: center;
+            padding: 20px;
+            font-weight: bold;
+        }
+
+        /* Tùy chỉnh thanh cuộn cho đẹp */
+        .exam-list::-webkit-scrollbar {
+            width: 6px;
+        }
+
+        .exam-list::-webkit-scrollbar-thumb {
+            background: #3498db;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>📅 Exam Countdown</h2>
+        <div id="displayArea" class="exam-list">
+            <p style="text-align:center">Đang tải lịch thi...</p>
+        </div>
+    </div>
+
+    <script>
+        async function loadData() {
+            const area = document.getElementById('displayArea');
+            try {
+                // [AC 3]: Gọi API theo đúng Route đã định nghĩa
+                const res = await fetch('/api/Exams');
+                const data = await res.json();
+
+                // [AC 2]: Kiểm tra nếu danh sách rỗng
+                if (!data || data.length === 0) {
+                    area.innerHTML = '<div class="empty">Chưa có kỳ thi nào được tạo</div>';
+                    return;
+                }
+
+                // [AC 1]: Hiển thị đầy đủ 4 thông tin bao gồm Giờ (time)
+                area.innerHTML = data.map(item => `
+                        <div class="exam-item">
+                            <b>Môn: ${item.subject}</b>
+                            <small>
+                                📅 Ngày: ${item.date} <br>
+                                ⏰ Giờ: ${item.time} <br>
+                                📍 Phòng: ${item.room}
+                            </small>
+                        </div>
+                    `).join('');
+
+            } catch (err) {
+                console.error(err);
+                area.innerHTML = '<div class="empty">Lỗi: Không thể kết nối đến máy chủ!</div>';
+            }
+        }
+
+        loadData();
+    </script>
+</body>
+</html>
