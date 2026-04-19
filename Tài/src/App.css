@@ -1,0 +1,11 @@
+.app-container { font-family: Arial, sans-serif; max-width: 450px; margin: 50px auto; padding: 20px; border: 1px solid #ddd; border-radius: 12px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
+h1 { color: #333; font-size: 20px; margin-bottom: 25px; }
+.toggle-section { display: flex; justify-content: space-between; align-items: center; margin-bottom: 15px; }
+.toggle-btn { padding: 8px 25px; font-weight: bold; border-radius: 20px; border: none; cursor: pointer; transition: 0.3s; color: white; }
+.toggle-btn.on { background-color: #28a745; }
+.toggle-btn.off { background-color: #dc3545; }
+.status-label { font-size: 14px; margin-bottom: 20px; }
+.warning-display { padding-top: 10px; }
+.alert { padding: 15px; border-radius: 6px; font-size: 14px; }
+.alert-warning { background-color: #fff3cd; border: 1px solid #ffeeba; color: #856404; }
+.hidden-msg { color: #888; font-style: italic; text-align: center; }

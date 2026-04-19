@@ -1,0 +1,20 @@
+body { font-family: Arial, sans-serif; background-color: #f4f4f9; padding: 20px; }
+.container { max-width: 600px; margin: 0 auto; }
+.exam-item {
+    background: white;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* AC2: Đánh dấu nổi bật bằng màu sắc */
+.highlight-warning {
+    border-left: 5px solid #ff4d4f;
+    background-color: #fff1f0;
+}
+
+.warning-icon { color: #cf1322; font-weight: bold; }
