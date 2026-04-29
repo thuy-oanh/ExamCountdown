@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<title>Quản lý Kỳ thi</title>
+
+<style>
+body {margin:0;font-family:'Segoe UI';background:#f4f6f9;}
+.main {padding:30px;}
+input,select,button {padding:8px;margin:5px;}
+
+table {width:100%;background:white;border-radius:10px;margin-top:10px;}
+th,td {padding:12px;}
+th {background:#2a5298;color:white;}
+tr:hover {background:#f1f5ff;}
+
+.btn-xoa {background:red;color:white;border:none;padding:5px 10px;}
+.icon-rac {font-size:24px;cursor:pointer;float:right;}
+
+.badge {padding:5px 10px;border-radius:8px;color:white;font-size:12px;}
+
+.modal {display:none;position:fixed;top:0;left:0;width:100%;height:100%;background:rgba(0,0,0,0.5);justify-content:center;align-items:center;}
+.modal-content {background:white;padding:20px;border-radius:10px;}
+</style>
+</head>
+
+<body>
+<div class="main">
+
+<h2>Quản lý Kỳ thi 
+  <span class="icon-rac" onclick="moThungRac()">🗑️</span>
+</h2>
+
+<!-- FORM (SCRUM-155: Thêm kỳ thi + chọn loại) -->
+<input id="tenKyThi" placeholder="Tên kỳ thi">
+<input type="date" id="ngayThi">
+<select id="loaiKyThi">
+  <option value="">Chọn loại</option>
+  <option>Giữa kỳ</option>
+  <option>Cuối kỳ</option>
+  <option>Quiz</option>
+  <option>Tiểu luận</option>
+  <option>Đồ án</option>
+</select>
+<button onclick="themKyThi()">Thêm</button>
+
+<!-- TABLE (SCRUM-159: Hiển thị màu theo loại) -->
+<table>
+<thead>
+<tr>
+<th>STT</th>
+<th>Tên</th>
+<th>Ngày</th>
+<th>Loại</th>
+<th>Xóa</th>
+</tr>
+</thead>
+<tbody id="bangKyThi"></tbody>
+</table>
+
+</div>
+
+<!-- MODAL XÓA (SCRUM-27: xác nhận xóa) -->
+<div class="modal" id="modalXoa">
+  <div class="modal-content">
+    <p>Xóa kỳ thi?</p>
+    <button onclick="dongModal()">Hủy</button>
+    <button onclick="xacNhanXoa()">Xóa</button>
+  </div>
+</div>
+
+<!-- MODAL THÙNG RÁC (SCRUM-23: lưu + khôi phục dữ liệu) -->
+<div class="modal" id="modalRac">
+  <div class="modal-content">
+    <h3>Thùng rác</h3>
+    <div id="dsRac"></div>
+    <button onclick="dongThungRac()">Đóng</button>
+  </div>
+</div>
+
+<script>
+
+// =========================
+// SCRUM-156: Mapping màu cho từng loại kỳ thi
+// =========================
+const colors = {
+  "Giữa kỳ": "#3498db",
+  "Cuối kỳ": "#e74c3c",
+  "Quiz": "#2ecc71",
+  "Tiểu luận": "#9b59b6",
+  "Đồ án": "#f39c12",
+  "default": "#95a5a6" // SCRUM-160: màu mặc định
+};
+
+// =========================
+// SCRUM-157: Lưu dữ liệu bằng localStorage
+// =========================
+let danhSach = JSON.parse(localStorage.getItem('ds')) || [];
+let thungRac = JSON.parse(localStorage.getItem('rac')) || [];
+let viTri = null;
+
+function save(){
+  localStorage.setItem('ds', JSON.stringify(danhSach));
+  localStorage.setItem('rac', JSON.stringify(thungRac));
+}
+
+// =========================
+// SCRUM-158: Logic gán màu theo loại
+// =========================
+function getColor(loai){
+  return colors[loai] || colors['default'];
+}
+
+// =========================
+// SCRUM-159: Hiển thị danh sách + màu sắc
+// =========================
+function hienThi(){
+  const bang = document.getElementById('bangKyThi');
+  bang.innerHTML = '';
+
+  danhSach.forEach((k, i)=>{
+    const tr = document.createElement('tr');
+
+    tr.innerHTML = `
+      <td>${i+1}</td>
+      <td>${k.ten}</td>
+      <td>${k.ngay}</td>
+      <td>
+        <span class="badge" style="background:${getColor(k.loai)}">
+          ${k.loai || 'Khác'}
+        </span>
+      </td>
+      <td><button class="btn-xoa">Xóa</button></td>
+    `;
+
+    tr.querySelector('.btn-xoa').onclick = () => moModal(i);
+    bang.appendChild(tr);
+  });
+}
+
+// =========================
+// SCRUM-155: Thêm kỳ thi
+// =========================
+function themKyThi(){
+  const ten = document.getElementById('tenKyThi').value;
+  const ngay = document.getElementById('ngayThi').value;
+  const loai = document.getElementById('loaiKyThi').value;
+
+  if(!ten || !ngay){
+    alert("Nhập đủ thông tin!");
+    return;
+  }
+
+  danhSach.push({ten, ngay, loai});
+  save();
+  hienThi();
+}
+
+// =========================
+// SCRUM-27: Modal xác nhận xóa
+// =========================
+function moModal(i){
+  viTri = i;
+  document.getElementById('modalXoa').style.display = 'flex';
+}
+
+function dongModal(){
+  document.getElementById('modalXoa').style.display = 'none';
+}
+
+// =========================
+// SCRUM-23: Xóa + lưu vào thùng rác (Undo)
+// =========================
+function xacNhanXoa(){
+  const item = danhSach[viTri];
+
+  danhSach.splice(viTri,1);
+  thungRac.push(item);
+
+  save();
+  dongModal();
+  hienThi();
+}
+
+// =========================
+// SCRUM-23: Hiển thị thùng rác
+// =========================
+function moThungRac(){
+  const box = document.getElementById('dsRac');
+  box.innerHTML = '';
+
+  thungRac.forEach((k,i)=>{
+    const div = document.createElement('div');
+
+    div.innerHTML = `
+      ${k.ten} - ${k.ngay}
+      <button onclick="khoiPhuc(${i})">Khôi phục</button>
+    `;
+
+    box.appendChild(div);
+  });
+
+  document.getElementById('modalRac').style.display = 'flex';
+}
+
+function dongThungRac(){
+  document.getElementById('modalRac').style.display = 'none';
+}
+
+// =========================
+// SCRUM-23: Khôi phục dữ liệu
+// =========================
+function khoiPhuc(i){
+  danhSach.push(thungRac[i]);
+  thungRac.splice(i,1);
+
+  save();
+  moThungRac();
+  hienThi();
+}
+
+// =========================
+// INIT
+// =========================
+hienThi();
+
+</script>
+
+</body>
+</html>
