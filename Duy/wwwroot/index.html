@@ -7,16 +7,38 @@
     <link rel="stylesheet" href="/css/style.css">
 </head>
 <body>
+    <header class="page-header">
+        <div>
+            <p class="page-kicker">Exam Countdown</p>
+            <h1>Hiển thị và cập nhật thời gian thi</h1>
+            <p class="page-description">
+                Countdown sẽ tự tính lại khi tải trang, khi bạn quay lại tab, hoặc khi trở lại trình duyệt bằng nút Back/Forward.
+            </p>
+        </div>
+        <button id="refreshButton" class="btn-secondary" type="button">Làm mới ngay</button>
+    </header>
 
-    <h2>Danh sách kỳ thi</h2>
+    <section class="status-panel" aria-label="Trạng thái đồng bộ dữ liệu">
+        <div class="status-chip">
+            <span class="status-dot"></span>
+            <span id="syncStatusText">Đang chuẩn bị tải dữ liệu...</span>
+        </div>
+        <p id="lastUpdatedText" class="last-updated">Chưa đồng bộ lần nào.</p>
+    </section>
 
-    <div id="examList">
-        <p>Đang tải dữ liệu...</p>
-    </div>
+    <section class="exams-section">
+        <div class="section-heading">
+            <h2>Danh sách kỳ thi</h2>
+            <p>Các thẻ bên dưới tự cập nhật thời gian còn lại theo thời gian thực.</p>
+        </div>
+        <div id="examList" class="exam-list">
+            <p class="loading-text">Đang tải dữ liệu...</p>
+        </div>
+    </section>
 
     <div class="modal-overlay" id="modalOverlay"></div>
-    <div class="modal" id="editExamModal">
-        <h3>Chỉnh sửa kỳ thi</h3>
+    <div class="modal" id="editExamModal" role="dialog" aria-modal="true" aria-labelledby="editModalTitle">
+        <h3 id="editModalTitle">Chỉnh sửa kỳ thi</h3>
         <input type="hidden" id="editExamId" />
 
         <div class="form-group">
@@ -39,8 +61,8 @@
         <div class="error-message" id="errorMessage"></div>
 
         <div class="modal-actions">
-            <button class="btn-cancel" onclick="closeEditForm()">Hủy</button>
-            <button class="btn-save" onclick="submitEditExam()">Lưu thay đổi</button>
+            <button class="btn-cancel" id="cancelButton" type="button">Hủy</button>
+            <button class="btn-save" id="saveButton" type="button">Lưu thay đổi</button>
         </div>
     </div>
 
