@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exam Countdown - Quản lý kỳ thi</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+
+    <h2>Danh sách kỳ thi</h2>
+
+    <div id="examList">
+        <p>Đang tải dữ liệu...</p>
+    </div>
+
+    <div class="modal-overlay" id="modalOverlay"></div>
+    <div class="modal" id="editExamModal">
+        <h3>Chỉnh sửa kỳ thi</h3>
+        <input type="hidden" id="editExamId" />
+
+        <div class="form-group">
+            <label for="editSubjectName">Tên môn (*)</label>
+            <input type="text" id="editSubjectName" placeholder="Nhập tên môn học" />
+        </div>
+        <div class="form-group">
+            <label for="editExamDate">Ngày thi (*)</label>
+            <input type="date" id="editExamDate" />
+        </div>
+        <div class="form-group">
+            <label for="editExamTime">Giờ thi (*)</label>
+            <input type="time" id="editExamTime" step="1" />
+        </div>
+        <div class="form-group">
+            <label for="editRoom">Phòng thi</label>
+            <input type="text" id="editRoom" placeholder="Nhập phòng thi (nếu có)" />
+        </div>
+
+        <div class="error-message" id="errorMessage"></div>
+
+        <div class="modal-actions">
+            <button class="btn-cancel" onclick="closeEditForm()">Hủy</button>
+            <button class="btn-save" onclick="submitEditExam()">Lưu thay đổi</button>
+        </div>
+    </div>
+
+    <script src="/js/exam.js"></script>
+</body>
+</html>
